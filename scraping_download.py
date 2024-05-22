@@ -22,14 +22,14 @@ driver = webdriver.Chrome(options=options)
 print("Please wait, start scraping...")
 
 # solution for timeout
-driver.set_page_load_timeout(20)
-try:
-    driver.get(url)
-except TimeoutException:
-    driver.execute_script("window.stop();")
+# driver.set_page_load_timeout(50)
+# try:
+#     driver.get(url)
+# except TimeoutException:
+#     driver.execute_script("window.stop();")
 
 # wait for elements to show up
-time.sleep(10)
+time.sleep(50)
 
 # Drop down menu for selecting province
 dropdown_provinsi = driver.find_element(By.ID, "DropDownListProvinsiSekda")
@@ -38,15 +38,15 @@ select_provinsi.select_by_visible_text("Bengkulu")
 
 # Refresh the page
 driver.refresh()
-time.sleep(10)
+time.sleep(50)
 
 # Drop down menu for selecting category
-dropdown_category = driver.find_element(By.ID, "DropDownListCategorySekda")
-select_category = Select(dropdown_provinsi)
-select_category.select_by_visible_text("Kegiatan Perbankan")
+# dropdown_category = driver.find_element(By.ID, "DropDownListCategorySekda")
+# select_category = Select(dropdown_provinsi)
+#select_category.select_by_visible_text("Kegiatan Perbankan")
 
 # Refresh the page
-driver.refresh()
-time.sleep(10)
+# driver.refresh()
+# time.sleep(10)
 
 driver.quit()
