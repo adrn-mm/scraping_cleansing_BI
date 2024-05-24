@@ -1,6 +1,6 @@
 # Checklist
 
-- [x] Develop script scraping
+- [x] ~~Develop script scraping~~
 - [ ] Develop script transform data
 - [ ] Develop script put data to HDFS & Hive (Cloudera Env)
 
