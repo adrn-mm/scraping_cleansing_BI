@@ -1,4 +1,2 @@
 selenium==4.10.0
 pandas
-python-dotenv
-tqdm
