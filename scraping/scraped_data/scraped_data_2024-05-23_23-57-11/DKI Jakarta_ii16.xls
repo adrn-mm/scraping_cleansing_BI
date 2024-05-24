@@ -1,0 +1,4865 @@
+
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 11">
+<link rel=Edit-Time-Data href="II16_files/editdata.mso">
+<link rel=OLE-Object-Data href="II16_files/oledata.mso">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:LastAuthor>atet_w</o:LastAuthor>
+  <o:LastSaved>2006-09-14T09:32:07Z</o:LastSaved>
+  <o:Version>11.6568</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:1.0in .75in 1.0in .75in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;}
+tr
+	{mso-height-source:auto;}
+col
+	{mso-width-source:auto;}
+br
+	{mso-data-placement:same-cell;}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:Normal;
+	mso-style-id:0;}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl24
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;}
+.xl25
+	{mso-style-parent:style0;
+	mso-number-format:"\@";}
+.xl26
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;}
+.xl27
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:1.0pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;}
+.xl28
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:1.0pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;}
+.xl29
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:1.0pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:1.0pt solid windowtext;}
+.xl30
+	{mso-style-parent:style0;
+	text-align:center;}
+.xl31
+	{mso-style-parent:style0;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:2.0pt double windowtext;
+	border-left:none;}
+.xl32
+	{mso-style-parent:style0;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:2.0pt double windowtext;
+	border-left:none;}
+.xl33
+	{mso-style-parent:style0;
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:2.0pt double windowtext;
+	border-left:none;}
+.xl34
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:1.0pt solid windowtext;}
+.xl35
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;}
+.xl36
+	{mso-style-parent:style0;
+	mso-number-format:"\#\,\#\#0";
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:none;}
+.xl37
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;}
+.xl38
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;}
+.xl39
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";}
+.xl40
+	{mso-style-parent:style0;
+	font-weight:200;
+	font-size:8.0pt;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\#\,\#\#0";
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;}
+.xl41
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\#\,\#\#0";}
+.xl42
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;}
+.xl43
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"_\(* \#\',\#\#0_\)\;_\(* \\\(\#\',\#\#0\\\)\;_\(* \0022-\0022_\)\;_\(\@_\)";
+	border-top:medium none;
+	border-right:.5pt solid windowtext;
+	border-bottom:medium none;
+	border-left:medium none;}
+.xl44
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"_\(* \#\',\#\#0_\)\;_\(* \\\(\#\',\#\#0\\\)\;_\(* \0022-\0022_\)\;_\(\@_\)";}
+.xl45
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-style:italic;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:none;}
+.xl46
+	{mso-style-parent:style0;
+	mso-number-format:"\#\,\#\#0";
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;}
+.xl47
+	{mso-style-parent:style0;
+	mso-number-format:"_\(* \#\',\#\#0_\)\;_\(* \\\(\#\',\#\#0\\\)\;_\(* \0022-\0022_\)\;_\(\@_\)";
+	border-top:medium none;
+	border-right:.5pt solid windowtext;
+	border-bottom:medium none;
+	border-left:medium none;}
+.xl48
+	{mso-style-parent:style0;
+	mso-number-format:"_\(* \#\',\#\#0_\)\;_\(* \\\(\#\',\#\#0\\\)\;_\(* \0022-\0022_\)\;_\(\@_\)";}
+.xl49
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:1.0pt solid windowtext;}
+.xl50
+	{mso-style-parent:style0;
+	font-style:italic;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:none;}
+.xl51
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;}
+.xl52
+	{mso-style-parent:style0;
+	font-style:italic;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:left;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	padding-left:12px;
+	mso-char-indent-count:1;}
+.xl53
+	{mso-style-parent:style0;
+	mso-number-format:"\@";
+	text-align:left;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:1.0pt solid windowtext;
+	padding-left:12px;
+	mso-char-indent-count:1;}
+.xl54
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:none;
+	border-bottom:1.0pt solid windowtext;
+	border-left:1.0pt solid windowtext;}
+.xl55
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:none;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;}
+.xl56
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;}
+.xl57
+	{mso-style-parent:style0;
+	mso-number-format:"_\(* \#\',\#\#0_\)\;_\(* \\\(\#\',\#\#0\\\)\;_\(* \0022-\0022_\)\;_\(\@_\)";
+	border-top:medium none;
+	border-right:.5pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:medium none;}
+.xl58
+	{mso-style-parent:style0;
+	mso-number-format:"_\(* \#\',\#\#0_\)\;_\(* \\\(\#\',\#\#0\\\)\;_\(* \0022-\0022_\)\;_\(\@_\)";
+	border-top:medium none;
+	border-right:medium none;
+	border-bottom:1.0pt solid windowtext;
+	border-left:medium none;}
+.xl59
+	{mso-style-parent:style0;
+	font-style:italic;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;}
+.xl60
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-style:italic;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;}
+.xl61
+	{mso-style-parent:style0;
+	font-style:italic;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;}
+.xl62
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;}
+.xl63
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:2.0pt double black;
+	border-left:none;}
+.xl64
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;}
+.xl65
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:2.0pt double black;
+	border-left:.5pt solid windowtext;}
+.xl66
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:1.0pt solid windowtext;}
+.xl67
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	border-top:none;
+	border-right:.5pt solid black;
+	border-bottom:none;
+	border-left:none;}
+.xl68
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	border-top:none;
+	border-right:1.0pt solid black;
+	border-bottom:none;
+	border-left:none;}
+.xl69
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:1.0pt solid windowtext;}
+.xl70
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;}
+.xl71
+	{mso-style-parent:style0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:2.0pt double windowtext;
+	border-left:1.0pt solid windowtext;}
+.xl72
+	{mso-style-parent:style0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:2.0pt double windowtext;
+	border-left:none;}
+.xl73
+	{mso-style-parent:style0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:2.0pt double windowtext;
+	border-left:none;}
+.xl74
+	{mso-style-parent:style0;
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:2.0pt double windowtext;
+	border-left:.5pt solid windowtext;}
+.xl75
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;}
+.xl76
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\#\,\#\#0";
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;}
+.xl77
+	{mso-style-parent:style0;
+	mso-number-format:"\#\,\#\#0";
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;}
+.xl78
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:.5pt solid windowtext;}
+.xl79
+	{mso-style-parent:style0;
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:1.0pt solid windowtext;
+	border-bottom:2.0pt double windowtext;
+	border-left:.5pt solid windowtext;}
+.xl80
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;}
+.xl81
+	{mso-style-parent:style0;
+	font-weight:200;
+	font-size:8.0pt;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\#\,\#\#0";
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;}
+.xl82
+	{mso-style-parent:style0;
+	mso-number-format:"\#\,\#\#0";
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;}
+.xl83
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:.5pt solid windowtext;}
+.xl84
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-style:italic;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:1.0pt solid windowtext;
+	white-space:normal;}
+.xl85
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-style:italic;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	white-space:normal;}
+.xl86
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-style:italic;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid windowtext;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	white-space:normal;}
+.xl87
+	{mso-style-parent:style0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:2.0pt double windowtext;
+	border-left:none;}
+.xl88
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:1.0pt solid windowtext;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+  <x:ExcelWorksheets>
+   <x:ExcelWorksheet>
+    <x:Name>II16</x:Name>
+    <x:WorksheetOptions>
+     <x:Selected/>
+     <x:DoNotDisplayGridlines/>
+     <x:Panes>
+      <x:Pane>
+       <x:Number>3</x:Number>
+       <x:ActiveRow>27</x:ActiveRow>
+       <x:ActiveCol>10</x:ActiveCol>
+      </x:Pane>
+     </x:Panes>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+  </x:ExcelWorksheets>
+  <x:WindowHeight>7935</x:WindowHeight>
+  <x:WindowWidth>15195</x:WindowWidth>
+  <x:WindowTopX>0</x:WindowTopX>
+  <x:WindowTopY>75</x:WindowTopY>
+  <x:ProtectStructure>False</x:ProtectStructure>
+  <x:ProtectWindows>False</x:ProtectWindows>
+ </x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+
+<body link=blue vlink=purple>
+<!--The following information was generated by Microsoft Office Excel's Publish
+as Web Page wizard.--><!--If the same item is republished from Excel, all information between the DIV
+tags will be replaced.--><!-----------------------------><!--START OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD --><!----------------------------->
+
+<table x:str border=0 cellpadding=0 cellspacing=0 width=2563 style='border-collapse:
+ collapse;table-layout:fixed;width:1925pt'>
+ <col width=17 style='mso-width-source:userset;mso-width-alt:621;width:13pt'>
+ <col width=18 style='mso-width-source:userset;mso-width-alt:658;width:14pt'>
+ <col width=26 span=2 style='mso-width-source:userset;mso-width-alt:950;
+ width:20pt'>
+ <col width=168 style='mso-width-source:userset;mso-width-alt:6144;width:126pt'>
+ <col width=60 style='mso-width-source:userset;mso-width-alt:2194;width:45pt'>
+ <col width=64 span=29 style='width:48pt'>
+ <col width=20 style='mso-width-source:userset;mso-width-alt:731;width:15pt'>
+ <col width=21 span=2 style='mso-width-source:userset;mso-width-alt:768;
+ width:16pt'>
+ <col width=18 style='mso-width-source:userset;mso-width-alt:658;width:14pt'>
+ <col width=24 style='mso-width-source:userset;mso-width-alt:877;width:18pt'>
+ <col width=224 style='mso-width-source:userset;mso-width-alt:8192;width:168pt'>
+ <col width=64 style='width:48pt'>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 width=17 style='height:12.75pt;width:13pt'></td>
+  <td width=18 style='width:14pt'></td>
+  <td width=26 style='width:20pt'></td>
+  <td width=26 style='width:20pt'></td>
+  <td width=168 style='width:126pt'></td>
+  <td width=60 style='width:45pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td style='width:81px'></td>
+  <td style='width:78px'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=20 style='width:15pt'></td>
+  <td width=21 style='width:16pt'></td>
+  <td width=21 style='width:16pt'></td>
+  <td width=18 style='width:14pt'></td>
+  <td width=24 style='width:18pt'></td>
+  <td width=224 style='width:168pt'></td>
+  <td width=64 style='width:48pt'></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 style='height:12.75pt'></td>
+  <td colspan=13 class=xl26>II.16
+  POSISI PINJAMAN RUPIAH DAN VALUTA ASING YANG DIBERIKAN BANK UMUM DAN BPR<span
+  style='mso-spacerun:yes'> </span></td>
+  <td colspan=14 class=xl60>II.16
+  OUTSTANDING OF LOANS IN RUPIAH AND FOREIGN CURRENCY OF COMMERCIAL AND RURAL
+  BANKS<span style='mso-spacerun:yes'> </span></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 style='height:12.75pt'></td>
+  <td colspan=13 class=xl26>PER DATI II MENURUT JENIS PENGGUNAAN BERDASARKAN
+  LOKASI PROYEK DI PROPINSI JAKARTA</td>
+  <td colspan=14 class=xl60>BY REGIONS AND TYPE OF LOANS BASED ON PROJECT
+  LOCATION IN PROVINCE OF JAKARTA</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td height=17 style='border:medium none; height:12.75pt; color:windowtext; font-size:10.0pt; font-weight:400; font-style:normal; text-decoration:none; font-family:Arial; text-align:general; vertical-align:bottom; white-space:nowrap; padding-left:1px; padding-right:1px; padding-top:1px'></td>
+  <td colspan=13 style="font-weight: 700; font-family: Arial, sans-serif; text-align: center; color: windowtext; font-size: 10.0pt; font-style: normal; text-decoration: none; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+	<span style="font-weight: 400">(Juta Rp)</span></td>
+  <td colspan=14 style="font-weight: 700; font-style: italic; font-family: Arial, sans-serif; text-align: center; color: windowtext; font-size: 10.0pt; text-decoration: none; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+	<span style="font-weight: 400">(Million of Rp)</span></td>
+  <td style="color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px"></td>
+ 	</tr>
+ <tr class=xl24 height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 colspan=7 class=xl24 style='height:12.75pt;mso-ignore:colspan'></td>
+  <td></td>
+  <td colspan=6 class=xl24 style='mso-ignore:colspan'></td>
+  <td colspan=14 class=xl61></td>
+  <td class=xl24></td>
+ </tr>
+ <tr class=xl26 height=35 style='mso-height-source:userset;height:26.25pt'>
+  <td colspan=5 rowspan=2 height=53 class=xl69 style='border-right:.5pt solid black;
+  border-bottom:2.0pt double black;height:39.75pt'>Dati II dan Jenis Penggunaan</td>
+  
+  <td rowspan=2 class=x128 style='font-weight:700;text-align:center;border-bottom:2.0pt double black;vertical-align:middle;border-top:1.0pt solid windowtext;border-right:.5pt solid windowtext' x:num>2018</td>
+  <td rowspan=2 class=x128 style='font-weight:700;text-align:center;border-bottom:2.0pt double black;vertical-align:middle;border-top:1.0pt solid windowtext;border-right:.5pt solid windowtext' x:num>2019</td><td rowspan=2 class=x128 style='font-weight:700;text-align:center;border-bottom:2.0pt double black;vertical-align:middle;border-top:1.0pt solid windowtext;border-right:.5pt solid windowtext' x:num>2020</td><td rowspan=2 class=x128 style='font-weight:700;text-align:center;border-bottom:2.0pt double black;vertical-align:middle;border-top:1.0pt solid windowtext;border-right:.5pt solid windowtext' x:num>2021</td><td rowspan=2 class=x128 style='font-weight:700;text-align:center;border-bottom:2.0pt double black;vertical-align:middle;border-top:1.0pt solid windowtext;border-right:.5pt solid windowtext' x:num>2022</td><td colspan=4 class=xl28 style='border-right:1.0pt solid black;border-left:none' x:num>2023</td><td colspan=6 class=xl28 style='border-right:.5pt solid windowtext;border-left:none' x:num>2023</td><td colspan=3 class=xl28 style='border-right:.5pt solid windowtext;border-left:none' x:num>2024</td>
+  <td colspan=5 rowspan=2 class=xl84 width=328 style='border-right:1.0pt solid black;
+  border-bottom:2.0pt double black;width:247pt'>Regions and Type of Loans</td>
+  <td rowspan=2 class=xl88>&nbsp;</td>
+ </tr>
+ <tr class=xl30 height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td class=xl31 style='border-top:.5pt solid black;border-left:none'>Mar</td><td class=xl31 style='border-top:.5pt solid black;border-left:none'>Apr</td><td class=xl31 style='border-top:.5pt solid black;border-left:none'>May</td><td class=xl31 style='border-top:.5pt solid black;border-right:1.0pt solid black;border-left:none'>Jun</td><td class=xl31 style='border-top:.5pt solid black;border-left:1.0pt solid black'>Jul</td><td class=xl31 style='border-top:.5pt solid black;border-left:none'>Aug</td><td class=xl31 style='border-top:.5pt solid black;border-left:none'>Sep</td><td class=xl31 style='border-top:.5pt solid black;border-left:none'>Oct</td><td class=xl31 style='border-top:.5pt solid black;border-left:none'>Nov</td><td class=xl31 style='border-top:.5pt solid black;border-left:none'>Dec</td><td class=xl31 style='border-top:.5pt solid black;border-left:none'>Jan</td><td class=xl31 style='border-top:.5pt solid black;border-left:none'>Feb</td><td class=xl31 style='border-top:.5pt solid black;border-left:none'>Mar</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl34 style='height:13.5pt' width="82">&nbsp;</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+  <td class=xl35>&nbsp;</td>
+  <td class=xl35>&nbsp;</td>
+  <td class=xl35>&nbsp;</td>
+  <td class=xl35>&nbsp;</td>
+  <td class=xl35>&nbsp;</td>
+  <td class=xl35>&nbsp;</td>
+  <td class=xl35>&nbsp;</td>
+  <td class=xl35>&nbsp;</td>
+  <td class=xl35>&nbsp;</td>
+  <td class=xl75 style='border-left:none'>&nbsp;</td>
+  <td class=xl80 style='border-left:none'>&nbsp;</td>
+  <td class=xl35 style='border-left:1.0pt solid black'>&nbsp;</td>
+  <td class=xl35>&nbsp;</td>
+  <td class=xl35>&nbsp;</td>
+  <td class=xl35>&nbsp;</td>
+  <td class=xl35>&nbsp;</td>
+  <td class=xl35>&nbsp;</td>
+  <td class=xl34>&nbsp;</td>
+  <td class=xl34>&nbsp;</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+  <td class=xl36>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td colspan=3 height=17 class=xl66 style='height:12.75pt'>Rupiah</td>
+  <td>&nbsp;</td>
+  <td class=xl35>&nbsp;</td>
+  <td class=xl35>&nbsp;</td>
+  <td class=xl35>&nbsp;</td>
+  <td class=xl35>&nbsp;</td>
+  <td class=xl35>&nbsp;</td>
+  <td class=xl35>&nbsp;</td>
+  <td class=xl35>&nbsp;</td>
+  <td class=xl35>&nbsp;</td>
+  <td class=xl35>&nbsp;</td>
+  <td class=xl75 style='border-left:none' width="80">&nbsp;</td>
+  <td class=xl80 style='border-left:none' width="79">&nbsp;</td>
+  <td class=xl35 style='border-left:1.0pt solid black'>&nbsp;</td>
+  <td class=xl35>&nbsp;</td>
+  <td class=xl35>&nbsp;</td>
+  <td class=xl35>&nbsp;</td>
+  <td class=xl35>&nbsp;</td>
+  <td class=xl35>&nbsp;</td>
+  <td class=xl35>&nbsp;</td>
+  <td class=xl35>&nbsp;</td>
+  <td colspan=2 class=xl66><i>Rupiah</i></td>
+  <td class=xl37></td>
+  <td></td>
+  <td class=xl36>&nbsp;</td>
+  <td></td>
+ </tr>
+ 
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 align=right style='height:12.75pt' x:num>1</td>
+  <td colspan=4 class=xl39 style='border-right:.5pt solid black'>Wil. Kota Jakarta Pusat                    <span style='mso-spacerun:yes'> </span></td>
+  
+			  <td class=xl40 style='border-left:none' x:num>460318270.365151</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>503126634.830423</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>405326456.277229</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>409378923.767995</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>482584687.755486</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">481877231.584448</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">495706450.214672</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">513000987.900642</td>
+  
+				<td class=xl81 x:num>520631871.690831</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">532261850.144381</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">531397460.011322</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">545976032.03105</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">540737856.996006</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">551456993.177783</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">575357077.37496</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">563234872.90107</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">565101260.021443</td>
+  
+				<td class=xl81 x:num>586901755.436497</td>  
+  <td class=xl34 align=right x:num>1</td>
+  <td colspan=4 class=xl39 style='border-right:1.0pt solid black'><i>Central Jakarta</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Modal Kerja</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>249948862.40361</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>264082378.449167</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>228833109.846686</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>231361997.940315</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>259172738.781055</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">262990598.291554</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">277449203.252743</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">287137834.754477</td>
+  
+				<td class=xl81 x:num>293336126.447257</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">292787130.521138</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">290684057.992247</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">300209363.618169</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">297750542.142227</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">307370897.161127</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">327746820.853698</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">316025079.373474</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">317040576.88097</td>
+  
+				<td class=xl81 x:num>327640644.910509</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Working</i> <i>Capital</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Investasi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>164480355.6415</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>191544420.580835</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>131485903.104737</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>131882219.924288</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>171519599.054885</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">170898785.392286</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">170185817.706965</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">177344450.033233</td>
+  
+				<td class=xl81 x:num>178538567.219907</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">189790502.67943</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">190327491.258203</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">193122852.017677</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">189676252.972735</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">189487964.186201</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">191779912.129048</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">191574722.936642</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">192237782.710093</td>
+  
+				<td class=xl81 x:num>201770633.984715</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Investment</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl39></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Konsumsi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>45889052.320041</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>47499835.800421</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>45007443.325806</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>46134705.903392</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>51892349.919546</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">47987847.900608</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">48071429.254964</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">48518703.112932</td>
+  
+				<td class=xl81 x:num>48757178.023667</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">49684216.943813</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">50385910.760872</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">52643816.395204</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">53311061.881044</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">54598131.830455</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">55830344.392214</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">55635070.590954</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">55822900.43038</td>
+  
+				<td class=xl81 x:num>57490476.541273</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Consumption</i></td>
+  <td></td>
+ </tr>
+ 
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 align=right style='height:12.75pt' x:num>2</td>
+  <td colspan=4 class=xl39 style='border-right:.5pt solid black'>Wil. Kota Jakarta Utara                    <span style='mso-spacerun:yes'> </span></td>
+  
+			  <td class=xl40 style='border-left:none' x:num>147152766.192507</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>161010903.779246</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>147591926.24681</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>143262003.632101</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>156022950.697596</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">159578108.338011</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">154160018.412956</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">152545293.391307</td>
+  
+				<td class=xl81 x:num>155423597.507673</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">154627336.161973</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">151536195.784592</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">154110723.066867</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">152241796.573246</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">153986116.03005</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">164135062.317081</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">158658191.158549</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">157945594.070498</td>
+  
+				<td class=xl81 x:num>161014368.723553</td>  
+  <td class=xl34 align=right x:num>2</td>
+  <td colspan=4 class=xl39 style='border-right:1.0pt solid black'><i>North Jakarta</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Modal Kerja</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>88658891.811101</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>96825730.981121</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>86266276.399394</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>82248805.253835</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>88029336.54905</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">90655875.480132</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">84782810.174236</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">82664377.725285</td>
+  
+				<td class=xl81 x:num>84724590.995461</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">82900512.629985</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">79610417.557911</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">81671039.627479</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">79404777.090628</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">80338629.152933</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">88807984.959513</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">82812712.139808</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">81719814.111673</td>
+  
+				<td class=xl81 x:num>83826909.731381</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Working</i> <i>Capital</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Investasi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>27531138.865885</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>32016367.152957</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>32597440.78473</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>31639394.061767</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>33611231.130814</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">34287544.8959</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">34623013.061814</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">34763823.695118</td>
+  
+				<td class=xl81 x:num>35173215.467116</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">36089322.193464</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">36066362.289472</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">35978739.901143</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">36123543.154686</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">36456812.449305</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">37634582.530342</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">37939129.091362</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">38325153.238979</td>
+  
+				<td class=xl81 x:num>38446523.695031</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Investment</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl39></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Konsumsi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>30962735.515521</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>32168805.645168</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>28728209.062686</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>29373804.316499</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>34382383.017732</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">34634687.961979</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">34754195.176906</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">35117091.970904</td>
+  
+				<td class=xl81 x:num>35525791.045096</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">35637501.338524</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">35859415.937209</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">36460943.538245</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">36713476.327932</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">37190674.427812</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">37692494.827226</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">37906349.927379</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">37900626.719846</td>
+  
+				<td class=xl81 x:num>38740935.297141</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Consumption</i></td>
+  <td></td>
+ </tr>
+ 
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 align=right style='height:12.75pt' x:num>3</td>
+  <td colspan=4 class=xl39 style='border-right:.5pt solid black'>Wil. Kota Jakarta Barat                    <span style='mso-spacerun:yes'> </span></td>
+  
+			  <td class=xl40 style='border-left:none' x:num>161828048.549035</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>168167768.294276</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>154002697.858552</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>140962380.135764</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>164234626.163944</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">168009969.225894</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">169359723.050659</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">167589121.943569</td>
+  
+				<td class=xl81 x:num>168053109.379822</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">171573400.498969</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">173333515.806755</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">175242226.975669</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">175773343.112869</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">179805228.837637</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">182035990.767893</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">177891232.440441</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">181098889.299182</td>
+  
+				<td class=xl81 x:num>186085141.292009</td>  
+  <td class=xl34 align=right x:num>3</td>
+  <td colspan=4 class=xl39 style='border-right:1.0pt solid black'><i>West Jakarta</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Modal Kerja</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>92486570.372236</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>93209311.447014</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>83616818.955156</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>78752695.502065</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>94367447.819509</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">95402649.634803</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">95853455.250167</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">93657954.762249</td>
+  
+				<td class=xl81 x:num>93948769.338162</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">96775114.443946</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">98133592.918062</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">99231409.318497</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">99287546.756141</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">102851912.053498</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">101641319.649568</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">96667009.318366</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">98820123.241212</td>
+  
+				<td class=xl81 x:num>103005384.243513</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Working</i> <i>Capital</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Investasi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>32727251.575989</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>36877535.167283</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>35678471.487182</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>26225488.671006</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>28988947.181355</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">31051017.595898</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">31651453.359376</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">31743627.343218</td>
+  
+				<td class=xl81 x:num>31632847.957057</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">32030500.272762</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">31905676.655497</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">32349778.662715</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">32416967.33288</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">32019698.58843</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">34935959.012411</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">35783924.448546</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">36802935.233537</td>
+  
+				<td class=xl81 x:num>37140319.013549</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Investment</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl39></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Konsumsi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>36614226.60081</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>38080921.679979</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>34707407.416214</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>35984195.962693</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>40878231.16308</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">41556301.995193</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">41854814.441116</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">42187539.838102</td>
+  
+				<td class=xl81 x:num>42471492.084603</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">42767785.782261</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">43294246.233196</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">43661038.994457</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">44068829.023848</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">44933618.195709</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">45458712.105914</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">45440298.673529</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">45475830.824433</td>
+  
+				<td class=xl81 x:num>45939438.034947</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Consumption</i></td>
+  <td></td>
+ </tr>
+ 
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 align=right style='height:12.75pt' x:num>4</td>
+  <td colspan=4 class=xl39 style='border-right:.5pt solid black'>Wil. Kota Jakarta Selatan                  <span style='mso-spacerun:yes'> </span></td>
+  
+			  <td class=xl40 style='border-left:none' x:num>445984126.296127</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>453140222.635195</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>454083656.866268</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>495568201.896455</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>551093289.417435</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">556554431.184322</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">564343987.210679</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">583155873.049695</td>
+  
+				<td class=xl81 x:num>594738827.392445</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">597483293.211082</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">597844815.983684</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">611316247.638484</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">612841555.898718</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">621693224.458574</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">650562161.616935</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">642844374.023118</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">654441008.601385</td>
+  
+				<td class=xl81 x:num>673310474.061169</td>  
+  <td class=xl34 align=right x:num>4</td>
+  <td colspan=4 class=xl39 style='border-right:1.0pt solid black'><i>South Jakarta</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Modal Kerja</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>231774010.602774</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>222464234.339615</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>209364215.003672</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>243979921.664727</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>293115104.236868</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">304098787.175382</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">309803193.850148</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">326881114.980403</td>
+  
+				<td class=xl81 x:num>334476403.840393</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">333155271.160458</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">332060891.586447</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">344772867.368054</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">344853234.003356</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">348266047.354761</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">358026750.49633</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">347032971.056276</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">357138772.699253</td>
+  
+				<td class=xl81 x:num>366593486.152403</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Working</i> <i>Capital</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Investasi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>139829597.495551</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>152787976.831687</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>175614830.428818</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>183076189.50368</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>182668431.615542</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">175944318.615763</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">177792276.730646</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">179287064.705266</td>
+  
+				<td class=xl81 x:num>182744842.978521</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">186660989.143085</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">187312202.950183</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">187114726.622368</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">187886290.269049</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">196387622.988506</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">213673925.578015</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">216743941.961263</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">217826785.692945</td>
+  
+				<td class=xl81 x:num>226476427.373645</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Investment</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl39></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Konsumsi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>74380518.197802</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>77888011.463893</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>69104611.433778</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>68512090.728048</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>75309753.565025</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">76511325.393177</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">76748516.629885</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">76987693.364026</td>
+  
+				<td class=xl81 x:num>77517580.573531</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">77667032.907539</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">78471721.447054</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">79428653.648062</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">80102031.626313</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">77039554.115307</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">78861485.54259</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">79067461.005579</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">79475450.209187</td>
+  
+				<td class=xl81 x:num>80240560.535121</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Consumption</i></td>
+  <td></td>
+ </tr>
+ 
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 align=right style='height:12.75pt' x:num>5</td>
+  <td colspan=4 class=xl39 style='border-right:.5pt solid black'>Wil. Kota Jakarta Timur                    <span style='mso-spacerun:yes'> </span></td>
+  
+			  <td class=xl40 style='border-left:none' x:num>141635568.505843</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>171927071.152326</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>194828952.977206</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>198674955.772722</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>209486418.295867</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">209229152.071407</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">209286324.131958</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">209093765.252406</td>
+  
+				<td class=xl81 x:num>209548642.499874</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">214431497.63469</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">216889265.690069</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">225240731.053607</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">227844177.81921</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">229094178.259843</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">229206204.768717</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">223603980.955834</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">223216537.078615</td>
+  
+				<td class=xl81 x:num>223575343.771338</td>  
+  <td class=xl34 align=right x:num>5</td>
+  <td colspan=4 class=xl39 style='border-right:1.0pt solid black'><i>East Jakarta</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Modal Kerja</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>78089583.383914</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>90693154.531205</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>109742819.660185</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>111212168.570442</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>121761117.683276</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">122374945.277808</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">122209434.659116</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">121342450.041986</td>
+  
+				<td class=xl81 x:num>125837012.338962</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">129841369.037551</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">133852069.227385</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">141856122.886072</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">143177947.681885</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">143041608.889747</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">142991817.505181</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">137238189.791795</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">136640835.27939</td>
+  
+				<td class=xl81 x:num>135922004.122852</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Working</i> <i>Capital</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Investasi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>31872464.030534</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>47915414.96959</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>52801330.3777</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>53300268.168172</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>48797275.044041</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">47265997.24215</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">47348472.35029</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">47838797.284034</td>
+  
+				<td class=xl81 x:num>43504493.372525</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">43990685.914032</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">42021239.292797</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">42658787.369016</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">43532872.812225</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">44382842.443704</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">43995871.604663</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">44096426.357122</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">44151161.14069</td>
+  
+				<td class=xl81 x:num>44788714.213702</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Investment</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl39></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Konsumsi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>31673521.091395</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>33318501.651531</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>32284802.939321</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>34162519.034108</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>38928025.56855</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">39588209.551449</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">39728417.122552</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">39912517.926386</td>
+  
+				<td class=xl81 x:num>40207136.788387</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">40599442.683107</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">41015957.169887</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">40725820.798519</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">41133357.3251</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">41669726.926392</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">42218515.658873</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">42269364.806917</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">42424540.658535</td>
+  
+				<td class=xl81 x:num>42864625.434784</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Consumption</i></td>
+  <td></td>
+ </tr>
+ 
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 align=right style='height:12.75pt' x:num>6</td>
+  <td colspan=4 class=xl39 style='border-right:.5pt solid black'>Wil. Kepulauan Seribu                      <span style='mso-spacerun:yes'> </span></td>
+  
+			  <td class=xl40 style='border-left:none' x:num>592043.322228</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>452234.101556</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>402275.811277</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>220112.879012</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>460889.912284</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">590326.537104</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">594270.031093</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">591671.898127</td>
+  
+				<td class=xl81 x:num>590500.173925</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">591487.156343</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">646275.370311</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">650006.38967</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">638180.795943</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">636584.438044</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">586168.544846</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">587133.437454</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">580701.326817</td>
+  
+				<td class=xl81 x:num>582768.535321</td>  
+  <td class=xl34 align=right x:num>6</td>
+  <td colspan=4 class=xl39 style='border-right:1.0pt solid black'><i>Thousand Island</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Modal Kerja</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>274904.741681</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>46804.090877</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>26044.223688</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>18822.530842</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>72283.80738</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">79823.246176</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">81344.65943</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">77945.433521</td>
+  
+				<td class=xl81 x:num>75245.902464</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">75823.015227</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">127200.809976</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">130514.641548</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">116391.76362</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">106291.96776</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">51766.366446</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">47627.208473</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">35442.119035</td>
+  
+				<td class=xl81 x:num>36583.449617</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Working</i> <i>Capital</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Investasi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>11088.491064</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>72610.550159</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>89419.311451</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>74560.928419</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>69335.487398</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">157400.504271</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">155491.44929</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">153440.930917</td>
+  
+				<td class=xl81 x:num>151809.976472</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">149375.808898</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">146644.626346</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">144572.921414</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">143509.469638</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">148364.547332</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">151151.669508</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">150690.409906</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">151664.493484</td>
+  
+				<td class=xl81 x:num>149103.530907</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Investment</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl39></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Konsumsi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>306050.089483</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>332819.46052</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>286812.276138</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>126729.419751</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>319270.617506</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">353102.786657</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">357433.922373</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">360285.533689</td>
+  
+				<td class=xl81 x:num>363444.294989</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">366288.332218</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">372429.933989</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">374918.826708</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">378279.562685</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">381927.922952</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">383250.508892</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">388815.819075</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">393594.714298</td>
+  
+				<td class=xl81 x:num>397081.554797</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Consumption</i></td>
+  <td></td>
+ </tr>
+ 
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 align=right style='height:12.75pt' x:num>7</td>
+  <td colspan=4 class=xl39 style='border-right:.5pt solid black'>JAKARTA1)<span style='mso-spacerun:yes'> </span></td>
+  
+			  <td class=xl40 style='border-left:none' x:num>1357510823.230891</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>1457824834.793022</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>1356235966.037342</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>1388066578.084049</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>1563882862.242612</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">1575839218.941186</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">1593450773.052017</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">1625976713.435746</td>
+  
+				<td class=xl81 x:num>1648986548.64457</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">1670968864.807438</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">1671647528.646733</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">1712535967.155347</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">1710076911.195992</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">1736672325.201931</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">1801882665.390432</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">1766819784.916466</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">1782383990.39794</td>
+  
+				<td class=xl81 x:num>1831469851.819887</td>  
+  <td class=xl34 align=right x:num>7</td>
+  <td colspan=4 class=xl39 style='border-right:1.0pt solid black'><i>JAKARTA1)</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Modal Kerja</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>741232823.315316</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>767321613.838999</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>717849284.088781</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>747574411.462226</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>856518028.877138</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">875602679.105855</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">890179441.84584</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">911761677.697921</td>
+  
+				<td class=xl81 x:num>932398148.862699</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">935535220.808305</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">934468230.092028</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">967871317.459819</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">964590439.437857</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">981975386.579826</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">1019266459.830736</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">979823588.888192</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">991395564.331533</td>
+  
+				<td class=xl81 x:num>1017025012.610275</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Working</i> <i>Capital</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Investasi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>396451896.100523</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>461214325.252511</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>428267395.494618</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>426198121.257332</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>465654819.514035</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">459605064.246268</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">461756524.658381</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">471131203.991786</td>
+  
+				<td class=xl81 x:num>471745776.971598</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">488711376.011671</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">487779617.072498</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">491369457.494333</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">489779436.011213</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">498883305.203478</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">522171402.523987</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">526288835.204841</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">529495482.509728</td>
+  
+				<td class=xl81 x:num>548771721.811549</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Investment</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl39></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Konsumsi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>219826103.815052</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>229288895.701512</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>210119286.453943</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>214294045.364491</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>241710013.851439</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">240631475.589063</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">241514806.547796</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">243083831.746039</td>
+  
+				<td class=xl81 x:num>244842622.810273</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">246722267.987462</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">249399681.482207</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">253295192.201195</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">255707035.746922</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">255813633.418627</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">260444803.035709</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">260707360.823433</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">261492943.556679</td>
+  
+				<td class=xl81 x:num>265673117.398063</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Consumption</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl49 style='height:12.75pt'>&nbsp;</td>
+  <td colspan=3 class=xl39 style='mso-ignore:colspan'></td>
+  <td class=xl46>&nbsp;</td>
+  <td class=xl46>&nbsp;</td>
+  <td class=xl46>&nbsp;</td>
+  <td class=xl46>&nbsp;</td>
+  <td class=xl46>&nbsp;</td>
+  <td class=xl46>&nbsp;</td>
+  <td class=xl46>&nbsp;</td>
+  <td class=xl46>&nbsp;</td>
+  <td class=xl46>&nbsp;</td>
+  <td class=xl77 style='border-left:none' width="80">&nbsp;</td>
+  <td class=xl82 style='border-left:none' width="79">&nbsp;</td>
+  <td class=xl46 style='border-left:1.0pt solid black'>&nbsp;</td>
+  <td class=xl47>&nbsp;</td>
+  <td class=xl47>&nbsp;</td>
+  <td class=xl47>&nbsp;</td>
+  <td class=xl47>&nbsp;</td>
+  <td class=xl47>&nbsp;</td>
+  <td class=xl49>&nbsp;</td>
+  <td class=xl49>&nbsp;</td>
+  <td colspan=2 class=xl39 style='mso-ignore:colspan'></td>
+  <td class=xl25></td>
+  <td class=xl50>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr class=xl24 height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td colspan=4 height=17 class=xl49 style='height:12.75pt'>Valuta Asing</td>
+  <td class=xl40>&nbsp;</td>
+  <td class=xl40>&nbsp;</td>
+  <td class=xl40>&nbsp;</td>
+  <td class=xl40>&nbsp;</td>
+  <td class=xl40>&nbsp;</td>
+  <td class=xl40>&nbsp;</td>
+  <td class=xl40>&nbsp;</td>
+  <td class=xl40>&nbsp;</td>
+  <td class=xl40>&nbsp;</td>
+  <td class=xl76 style='border-left:none' width="80">&nbsp;</td>
+  <td class=xl81 style='border-left:none' width="79">&nbsp;</td>
+  <td class=xl40 style='border-left:1.0pt solid black'>&nbsp;</td>
+  <td class=xl43>&nbsp;</td>
+  <td class=xl43>&nbsp;</td>
+  <td class=xl43>&nbsp;</td>
+  <td class=xl43>&nbsp;</td>
+  <td class=xl43>&nbsp;</td>
+  <td class=xl43>&nbsp;</td>
+  <td class=xl43>&nbsp;</td>
+   <td colspan=4 class=xl49><i>Foreign</i> <i>Currency</i></td>
+  <td class=xl45>&nbsp;</td>
+  <td class=xl24></td>
+ </tr>
+ 
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 align=right style='height:12.75pt' x:num>1</td>
+  <td colspan=4 class=xl39 style='border-right:.5pt solid black'>Wil. Kota Jakarta Pusat                    <span style='mso-spacerun:yes'> </span></td>
+  
+			  <td class=xl40 style='border-left:none' x:num>178300204.179903</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>148591799.595603</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>95358808.05143</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>87734520.506908</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>101624915.432039</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">120749483.020456</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">114942929.61416</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">128087470.650579</td>
+  
+				<td class=xl81 x:num>122377491.094732</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">119760230.626275</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">124492437.91643</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">129126156.362567</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">140932431.340172</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">136051335.593438</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">132567884.756242</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">131573532.093706</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">135957397.364785</td>
+  
+				<td class=xl81 x:num>151671914.627379</td>  
+  <td class=xl34 align=right x:num>1</td>
+  <td colspan=4 class=xl39 style='border-right:1.0pt solid black'><i>Central Jakarta</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Modal Kerja</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>109813798.927829</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>86997568.981137</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>46471511.66662</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>53211812.590286</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>59148522.535828</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">69518541.194057</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">65673967.935492</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">71206597.728786</td>
+  
+				<td class=xl81 x:num>65293176.616673</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">61181105.241286</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">63229193.327324</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">66832408.852571</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">72186270.294543</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">68607800.385198</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">66038401.504523</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">60352341.431241</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">64663837.895716</td>
+  
+				<td class=xl81 x:num>76226944.573961</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Working</i> <i>Capital</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Investasi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>55445474.852128</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>60978663.182073</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>48823184.742452</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>34463599.745451</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>42433289.577433</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">51191426.417946</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">49231474.861846</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">56843850.384301</td>
+  
+				<td class=xl81 x:num>57049739.402894</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">58544564.943271</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">61231420.617111</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">62264249.670438</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">68717157.833453</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">67415529.927731</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">66502740.393034</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">71193785.742709</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">71127497.563445</td>
+  
+				<td class=xl81 x:num>75276892.943445</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Investment</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl39></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Konsumsi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>13040930.399946</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>615567.432393</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>64111.642358</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>59108.171171</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>43103.318778</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">39515.408453</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">37486.816822</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">37022.537492</td>
+  
+				<td class=xl81 x:num>34575.075165</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">34560.441718</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">31823.971995</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">29497.839558</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">29003.212176</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">28005.280509</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">26742.858685</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">27404.919756</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">166061.905624</td>
+  
+				<td class=xl81 x:num>168077.109973</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Consumption</i></td>
+  <td></td>
+ </tr>
+
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 align=right style='height:12.75pt' x:num>2</td>
+  <td colspan=4 class=xl39 style='border-right:.5pt solid black'>Wil. Kota Jakarta Utara                    <span style='mso-spacerun:yes'> </span></td>
+  
+			  <td class=xl40 style='border-left:none' x:num>17693626.129026</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>17871130.623655</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>18178631.5532</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>20808817.407163</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>20075124.947205</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">20515090.787389</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">26400326.5458</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">27214258.337309</td>
+  
+				<td class=xl81 x:num>26356920.382464</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">26281188.439184</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">27320287.436595</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">27636511.60793</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">27755100.311658</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">27632358.605146</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">25006465.219064</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">27170284.181918</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">27096753.733203</td>
+  
+				<td class=xl81 x:num>25982285.672897</td>  
+  <td class=xl34 align=right x:num>2</td>
+  <td colspan=4 class=xl39 style='border-right:1.0pt solid black'><i>North Jakarta</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Modal Kerja</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>7458523.315124</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>7535125.153107</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>6764711.697447</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>9841247.736207</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>9513115.016088</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">10597067.527917</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">9485976.929262</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">10043451.285869</td>
+  
+				<td class=xl81 x:num>9765626.945436</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">9930819.641395</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">10605454.581547</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">10827675.096257</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">10671596.914976</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">10767478.783953</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">8461991.263758</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">10013832.278241</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">10052488.301547</td>
+  
+				<td class=xl81 x:num>10024431.777378</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Working</i> <i>Capital</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Investasi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>10101130.003833</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>10282922.17855</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>11334893.516472</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>10836420.758501</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>10441004.027171</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">9811775.255521</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">16815221.294333</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">17077144.35219</td>
+  
+				<td class=xl81 x:num>16502552.767471</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">16261917.016613</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">16625900.351475</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">16654406.415232</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">16840991.37331</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">16786240.017152</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">16473042.854557</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">17086836.206222</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">16976592.656307</td>
+  
+				<td class=xl81 x:num>15891489.298705</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Investment</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl39></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Konsumsi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>133972.810069</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>53083.291998</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>79026.339281</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>131148.912455</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>121005.903946</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">106248.003951</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">99128.322205</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">93662.69925</td>
+  
+				<td class=xl81 x:num>88740.669557</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">88451.781176</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">88932.503573</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">154430.096441</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">242512.023372</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">78639.804041</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">71431.100749</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">69615.697455</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">67672.775349</td>
+  
+				<td class=xl81 x:num>66364.596814</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Consumption</i></td>
+  <td></td>
+ </tr>
+
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 align=right style='height:12.75pt' x:num>3</td>
+  <td colspan=4 class=xl39 style='border-right:.5pt solid black'>Wil. Kota Jakarta Barat                    <span style='mso-spacerun:yes'> </span></td>
+  
+			  <td class=xl40 style='border-left:none' x:num>19104729.309803</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>19766083.210696</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>20306913.250372</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>21534115.456645</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>22005446.556524</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">21195773.926633</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">20930641.321327</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">22954697.118751</td>
+  
+				<td class=xl81 x:num>23472899.171496</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">22877297.822213</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">23907468.770459</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">24395564.689191</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">25214175.155843</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">26704321.328071</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">25015690.884187</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">23943396.510504</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">24672565.115597</td>
+  
+				<td class=xl81 x:num>27192105.511012</td>  
+  <td class=xl34 align=right x:num>3</td>
+  <td colspan=4 class=xl39 style='border-right:1.0pt solid black'><i>West Jakarta</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Modal Kerja</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>11177792.018013</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>11911254.179762</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>11510065.597296</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>12333894.566169</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>8721030.658088</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">8446113.803501</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">7395359.980285</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">8005827.908447</td>
+  
+				<td class=xl81 x:num>8813780.654694</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">8287253.948227</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">9437927.783581</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">9877418.2009</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">10278686.133647</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">10667232.898966</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">9751800.711253</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">7852092.212624</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">8507817.270749</td>
+  
+				<td class=xl81 x:num>10154189.734222</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Working</i> <i>Capital</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Investasi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>7456351.217265</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>7725247.621629</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>8727944.866964</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>8690249.163535</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>13220659.86605</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">12695798.179132</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">13484113.372889</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">14901393.790862</td>
+  
+				<td class=xl81 x:num>14622365.433283</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">14557819.511527</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">14430696.799154</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">14491972.835301</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">14898798.274277</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">16003436.405679</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">15240564.820973</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">16058194.364818</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">16131828.580028</td>
+  
+				<td class=xl81 x:num>17005103.463941</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Investment</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl39></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Konsumsi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>470586.074525</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>129581.409305</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>68902.786112</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>509971.726941</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>63756.032386</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">53861.944</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">51167.968153</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">47475.419442</td>
+  
+				<td class=xl81 x:num>36753.083519</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">32224.362459</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">38844.187724</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">26173.65299</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">36690.747919</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">33652.023426</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">23325.351961</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">33109.933062</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">32919.26482</td>
+  
+				<td class=xl81 x:num>32812.312849</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Consumption</i></td>
+  <td></td>
+ </tr>
+
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 align=right style='height:12.75pt' x:num>4</td>
+  <td colspan=4 class=xl39 style='border-right:.5pt solid black'>Wil. Kota Jakarta Selatan                  <span style='mso-spacerun:yes'> </span></td>
+  
+			  <td class=xl40 style='border-left:none' x:num>115013564.875265</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>119908238.903718</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>134727358.026168</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>140922639.156598</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>175119781.692688</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">158881845.689253</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">158479273.013001</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">167971667.607171</td>
+  
+				<td class=xl81 x:num>166816578.184389</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">157752884.366111</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">164294450.1724</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">167718461.821866</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">176289052.647516</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">178235961.894298</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">175342609.024049</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">181983211.983385</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">179144240.568188</td>
+  
+				<td class=xl81 x:num>193517950.662142</td>  
+  <td class=xl34 align=right x:num>4</td>
+  <td colspan=4 class=xl39 style='border-right:1.0pt solid black'><i>South Jakarta</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Modal Kerja</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>75538077.052161</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>68245659.605881</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>73574858.176841</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>79518436.658894</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>98612572.192161</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">88716314.0486</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">90622040.37493</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">93556971.409187</td>
+  
+				<td class=xl81 x:num>94688844.142583</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">84633821.91413</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">91823250.130625</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">94972525.412549</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">100337834.220734</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">102754350.816012</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">100367031.591587</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">109426785.607587</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">107536739.416246</td>
+  
+				<td class=xl81 x:num>123365719.446723</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Working</i> <i>Capital</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Investasi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>39271375.726625</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>51435175.313601</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>60937498.776526</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>61244882.818275</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>76342126.149694</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">70020795.523049</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">67715603.170332</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">74277596.50223</td>
+  
+				<td class=xl81 x:num>71993865.350131</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">72991757.698684</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">72339693.096197</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">72570460.970577</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">75767727.516318</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">75299981.986814</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">74812990.493248</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">72384538.516392</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">71443941.71558</td>
+  
+				<td class=xl81 x:num>69985546.156857</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Investment</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl39></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Konsumsi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>204112.096479</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>227403.984236</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>215001.072801</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>159319.679429</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>165083.350833</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">144736.117604</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">141629.467739</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">137099.695754</td>
+  
+				<td class=xl81 x:num>133868.691675</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">127304.753297</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">131506.945578</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">175475.43874</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">183490.910464</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">181629.091472</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">162586.939214</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">171887.859406</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">163559.436362</td>
+  
+				<td class=xl81 x:num>166685.058562</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Consumption</i></td>
+  <td></td>
+ </tr>
+
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 align=right style='height:12.75pt' x:num>5</td>
+  <td colspan=4 class=xl39 style='border-right:.5pt solid black'>Wil. Kota Jakarta Timur                    <span style='mso-spacerun:yes'> </span></td>
+  
+			  <td class=xl40 style='border-left:none' x:num>16352086.213453</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>19094149.182852</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>15208900.413353</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>13902008.805103</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>15845626.10048</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">13947848.639134</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">14450287.06904</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">15142696.760802</td>
+  
+				<td class=xl81 x:num>15296990.928936</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">15388672.2069</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">15691576.161615</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">17779494.352566</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">18260266.751961</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">17653296.32604</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">18114891.20644</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">18340002.598416</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">18277204.375947</td>
+  
+				<td class=xl81 x:num>19228788.280621</td>  
+  <td class=xl34 align=right x:num>5</td>
+  <td colspan=4 class=xl39 style='border-right:1.0pt solid black'><i>East Jakarta</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Modal Kerja</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>13305617.649814</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>13165010.279755</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>8317885.712412</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>8048362.347432</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>9082587.357148</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">7720811.76198</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">8432987.874415</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">9138051.880351</td>
+  
+				<td class=xl81 x:num>9319188.254667</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">9359165.185648</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">9611398.213834</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">11512448.910003</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">11836876.284771</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">11320493.915717</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">11916404.697358</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">11940791.869496</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">11982330.5313</td>
+  
+				<td class=xl81 x:num>12949784.105861</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Working</i> <i>Capital</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Investasi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>2990814.740317</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>5911443.132175</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>6805338.797928</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>5836525.826189</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>6746134.547727</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">6215740.47204</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">6006371.675636</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">5994231.208429</td>
+  
+				<td class=xl81 x:num>5967518.67609</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">6019171.680407</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">6069731.349477</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">6254367.29017</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">6411247.904883</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">6320936.876605</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">6186768.153393</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">6383229.686671</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">6279399.165342</td>
+  
+				<td class=xl81 x:num>6263056.032184</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Investment</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl39></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Konsumsi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>55653.823322</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>17695.770922</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>85675.903013</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>17120.631482</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>16904.195605</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">11296.405114</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">10927.518989</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">10413.672022</td>
+  
+				<td class=xl81 x:num>10283.998179</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">10335.340845</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">10446.598304</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">12678.152393</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">12142.562307</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">11865.533718</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">11718.355689</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">15981.042249</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">15474.679305</td>
+  
+				<td class=xl81 x:num>15948.142576</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Consumption</i></td>
+  <td></td>
+ </tr>
+
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 align=right style='height:12.75pt' x:num>6</td>
+  <td colspan=4 class=xl39 style='border-right:.5pt solid black'>Wil. Kepulauan Seribu                      <span style='mso-spacerun:yes'> </span></td>
+  
+			  <td class=xl40 style='border-left:none' x:num>382257.058333</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>372800.903775</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>160226.451776</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>128651.303658</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>123609.357414</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">112312.086996</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">107681.01097</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">106282.381011</td>
+  
+				<td class=xl81 x:num>102534.881011</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">99380.50071</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">96561.533542</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">94124.33279</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">92771.876909</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">86704.294829</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">82223.350095</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">80323.653926</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">76064.039699</td>
+  
+				<td class=xl81 x:num>72777.920342</td>  
+  <td class=xl34 align=right x:num>6</td>
+  <td colspan=4 class=xl39 style='border-right:1.0pt solid black'><i>Thousand Island</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Modal Kerja</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>22288.989065</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>180472.500001</td>
+  
+			<td class=xl40 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+			<td class=xl40 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+			<td class=xl40 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+  			<td class=xl40 x:str style='border-left:none'>
+			<p align="right">-</td>
+  
+  			<td class=xl40 x:str style='border-left:none'>
+			<p align="right">-</td>
+  
+  			<td class=xl40 x:str style='border-left:none'>
+			<p align="right">-</td>
+  
+  			<td class=xl40 x:str style='border-left:none'>
+			<p align="right">-</td>
+  
+  			<td class=xl40 x:str style='border-left:none'>
+			<p align="right">-</td>
+  
+  			<td class=xl40 x:str style='border-left:none'>
+			<p align="right">-</td>
+  
+  			<td class=xl40 x:str style='border-left:none'>
+			<p align="right">-</td>
+  
+  			<td class=xl40 x:str style='border-left:none'>
+			<p align="right">-</td>
+  
+  			<td class=xl40 x:str style='border-left:none'>
+			<p align="right">-</td>
+  
+  			<td class=xl40 x:str style='border-left:none'>
+			<p align="right">-</td>
+  
+  			<td class=xl40 x:str style='border-left:none'>
+			<p align="right">-</td>
+  
+  			<td class=xl40 x:str style='border-left:none'>
+			<p align="right">-</td>
+  
+  			<td class=xl40 x:str style='border-left:none'>
+			<p align="right">-</td>
+  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Working</i> <i>Capital</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Investasi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>359968.069268</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>192328.403774</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>160226.451776</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>128651.303658</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>123609.357414</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">112312.086996</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">107681.01097</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">106282.381011</td>
+  
+				<td class=xl81 x:num>102534.881011</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">99380.50071</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">96561.533542</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">94124.33279</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">92771.876909</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">86704.294829</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">82223.350095</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">80323.653926</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">76064.039699</td>
+  
+				<td class=xl81 x:num>72777.920342</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Investment</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl39></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Konsumsi</td>
+  
+			<td class=xl40 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+			<td class=xl40 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+			<td class=xl40 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+			<td class=xl40 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+			<td class=xl40 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+  			<td class=xl40 x:str style='border-left:none'>
+			<p align="right">-</td>
+  
+  			<td class=xl40 x:str style='border-left:none'>
+			<p align="right">-</td>
+  
+  			<td class=xl40 x:str style='border-left:none'>
+			<p align="right">-</td>
+  
+  			<td class=xl40 x:str style='border-left:none'>
+			<p align="right">-</td>
+  
+  			<td class=xl40 x:str style='border-left:none'>
+			<p align="right">-</td>
+  
+  			<td class=xl40 x:str style='border-left:none'>
+			<p align="right">-</td>
+  
+  			<td class=xl40 x:str style='border-left:none'>
+			<p align="right">-</td>
+  
+  			<td class=xl40 x:str style='border-left:none'>
+			<p align="right">-</td>
+  
+  			<td class=xl40 x:str style='border-left:none'>
+			<p align="right">-</td>
+  
+  			<td class=xl40 x:str style='border-left:none'>
+			<p align="right">-</td>
+  
+  			<td class=xl40 x:str style='border-left:none'>
+			<p align="right">-</td>
+  
+  			<td class=xl40 x:str style='border-left:none'>
+			<p align="right">-</td>
+  
+  			<td class=xl40 x:str style='border-left:none'>
+			<p align="right">-</td>
+  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Consumption</i></td>
+  <td></td>
+ </tr>
+
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 align=right style='height:12.75pt' x:num>7</td>
+  <td colspan=4 class=xl39 style='border-right:.5pt solid black'>JAKARTA<span style='mso-spacerun:yes'> </span></td>
+  
+			  <td class=xl40 style='border-left:none' x:num>346846467.765783</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>325604202.420299</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>283940837.746299</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>285030752.636075</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>334794504.08635</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">335402354.149861</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">335311138.574298</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">361477072.855623</td>
+  
+				<td class=xl81 x:num>354423414.643028</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">342159653.961393</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">355802781.991041</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">366750313.16691</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">388543798.084059</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">386363978.041822</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">376129764.440077</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">383090751.021855</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">385224225.197419</td>
+  
+				<td class=xl81 x:num>417665822.674393</td>  
+  <td class=xl34 align=right x:num>7</td>
+  <td colspan=4 class=xl39 style='border-right:1.0pt solid black'><i>JAKARTA</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Modal Kerja</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>217316097.952006</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>188035090.699643</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>146639032.850616</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>162953753.898988</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>185077827.759313</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">184998848.336055</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">181610333.094384</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">191950900.21264</td>
+  
+				<td class=xl81 x:num>187880616.614053</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">173392165.930686</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">184707224.036911</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">194022476.47228</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">205311263.848671</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">204117356.799846</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">196535629.768479</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">199585843.399189</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">202743213.415558</td>
+  
+				<td class=xl81 x:num>232721069.638145</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Working</i> <i>Capital</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Investasi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>115625114.609436</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>136525779.831802</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>136789087.152118</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>121200329.615609</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>149306823.525489</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">150047847.934684</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">153360465.386006</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">169200498.619023</td>
+  
+				<td class=xl81 x:num>166238576.51088</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">168474611.351212</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">170794003.746956</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">172329581.514508</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">182728694.77915</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">181912829.50881</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">179298330.0653</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">183186908.170738</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">182035323.720401</td>
+  
+				<td class=xl81 x:num>184494865.815474</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Investment</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl39></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Konsumsi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>13905255.204341</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>1043331.888854</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>512717.743565</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>876669.121478</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>409852.801548</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">355657.879122</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">340340.093908</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">325674.02396</td>
+  
+				<td class=xl81 x:num>304221.518095</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">292876.679495</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">301554.207174</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">398255.180122</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">503839.456238</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">333791.733166</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">295804.606298</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">317999.451928</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">445688.06146</td>
+  
+				<td class=xl81 x:num>449887.220774</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Consumption</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl39></td>
+  <td class=xl42></td>
+  <td class=xl39></td>
+  <td class=xl46>&nbsp;</td>
+  <td class=xl46>&nbsp;</td>
+  <td class=xl46>&nbsp;</td>
+  <td class=xl46>&nbsp;</td>
+  <td class=xl46>&nbsp;</td>
+  <td class=xl46>&nbsp;</td>
+  <td class=xl46>&nbsp;</td>
+  <td class=xl46>&nbsp;</td>
+  <td class=xl77 style='border-left:none' width="80">&nbsp;</td>
+  <td class=xl82 style='border-left:none' width="79">&nbsp;</td>
+  <td class=xl46 style='border-left:1.0pt solid black'>&nbsp;</td>
+  <td class=xl47>&nbsp;</td>
+  <td class=xl47>&nbsp;</td>
+  <td class=xl47>&nbsp;</td>
+  <td class=xl47>&nbsp;</td>
+  <td class=xl47>&nbsp;</td>
+  <td class=xl47>&nbsp;</td>
+  <td class=xl53>&nbsp;</td>
+  <td class=xl53>&nbsp;</td>
+  <td class=xl25 style='mso-ignore:colspan'></td>
+  <td></td>
+  <td class=xl25></td>
+  <td class=xl52>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td colspan=3 height=17 class=xl49 style='height:12.75pt'>Jumlah</td>
+  <td class=xl39></td>
+  <td class=xl51>&nbsp;</td>
+  <td class=xl46>&nbsp;</td>
+  <td class=xl46>&nbsp;</td>
+  <td class=xl46>&nbsp;</td>
+  <td class=xl46>&nbsp;</td>
+  <td class=xl46>&nbsp;</td>
+  <td class=xl46>&nbsp;</td>
+  <td class=xl46>&nbsp;</td>
+  <td class=xl77 style='border-left:none' width="80">&nbsp;</td>
+  <td class=xl82 style='border-left:none' width="79">&nbsp;</td>
+  <td class=xl46 style='border-left:1.0pt solid black'>&nbsp;</td>
+  <td class=xl47>&nbsp;</td>
+  <td class=xl47>&nbsp;</td>
+  <td class=xl47>&nbsp;</td>
+  <td class=xl47>&nbsp;</td>
+  <td class=xl47>&nbsp;</td>
+  <td class=xl47>&nbsp;</td>
+  <td class=xl47>&nbsp;</td>
+  <td class=xl47>&nbsp;</td>
+   <td class=xl49><i>Total</i></td>
+  <td colspan=2 class=xl39 style='mso-ignore:colspan'></td>
+  <td class=xl25></td>
+  <td class=xl52>&nbsp;</td>
+  <td></td>
+ </tr>
+ 
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 align=right style='height:12.75pt' x:num>1</td>
+  <td colspan=4 class=xl39 style='border-right:.5pt solid black'>Wil. Kota Jakarta Pusat                    <span style='mso-spacerun:yes'> </span></td>
+  
+			  <td class=xl40 style='border-left:none' x:num>638618474.545054</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>651718434.426026</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>500685264.328659</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>497113444.274903</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>584209603.187525</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">602626714.604904</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">610649379.828832</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">641088458.551221</td>
+  
+				<td class=xl81 x:num>643009362.785563</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">652022080.770656</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">655889897.927752</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">675102188.393617</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">681670288.336178</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">687508328.771221</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">707924962.131202</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">694808404.994776</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">701058657.386228</td>
+  
+				<td class=xl81 x:num>738573670.063876</td>  
+  <td class=xl34 align=right x:num>1</td>
+  <td colspan=4 class=xl39 style='border-right:1.0pt solid black'><i>Central Jakarta</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Modal Kerja</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>359762661.331439</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>351079947.430304</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>275304621.513306</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>284573810.530601</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>318321261.316883</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">332509139.485611</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">343123171.188235</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">358344432.483263</td>
+  
+				<td class=xl81 x:num>358629303.06393</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">353968235.762424</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">353913251.319571</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">367041772.47074</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">369936812.43677</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">375978697.546325</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">393785222.358221</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">376377420.804715</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">381704414.776686</td>
+  
+				<td class=xl81 x:num>403867589.48447</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Working</i> <i>Capital</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Investasi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>219925830.493628</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>252523083.762908</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>180309087.847189</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>166345819.669739</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>213952888.632318</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">222090211.810232</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">219417292.568811</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">234188300.417534</td>
+  
+				<td class=xl81 x:num>235588306.622801</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">248335067.622701</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">251558911.875314</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">255387101.688115</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">258393410.806188</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">256903494.113932</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">258282652.522082</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">262768508.679351</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">263365280.273538</td>
+  
+				<td class=xl81 x:num>277047526.92816</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Investment</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl39></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Konsumsi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>58929982.719987</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>48115403.232814</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>45071554.968164</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>46193814.074563</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>51935453.238324</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">48027363.309061</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">48108916.071786</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">48555725.650424</td>
+  
+				<td class=xl81 x:num>48791753.098832</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">49718777.385531</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">50417734.732867</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">52673314.234762</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">53340065.09322</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">54626137.110964</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">55857087.250899</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">55662475.51071</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">55988962.336004</td>
+  
+				<td class=xl81 x:num>57658553.651246</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Consumption</i></td>
+  <td></td>
+ </tr>
+
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 align=right style='height:12.75pt' x:num>2</td>
+  <td colspan=4 class=xl39 style='border-right:.5pt solid black'>Wil. Kota Jakarta Utara                    <span style='mso-spacerun:yes'> </span></td>
+  
+			  <td class=xl40 style='border-left:none' x:num>164846392.321533</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>178882034.402901</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>165770557.80001</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>164070821.039264</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>176098075.644801</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">180093199.1254</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">180560344.958756</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">179759551.728616</td>
+  
+				<td class=xl81 x:num>181780517.890137</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">180908524.601157</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">178856483.221187</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">181747234.674797</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">179996896.884904</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">181618474.635196</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">189141527.536145</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">185828475.340467</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">185042347.803701</td>
+  
+				<td class=xl81 x:num>186996654.39645</td>  
+  <td class=xl34 align=right x:num>2</td>
+  <td colspan=4 class=xl39 style='border-right:1.0pt solid black'><i>North Jakarta</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Modal Kerja</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>96117415.126225</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>104360856.134228</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>93030988.096841</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>92090052.990042</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>97542451.565138</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">101252943.008049</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">94268787.103498</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">92707829.011154</td>
+  
+				<td class=xl81 x:num>94490217.940897</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">92831332.27138</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">90215872.139458</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">92498714.723736</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">90076374.005604</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">91106107.936886</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">97269976.223271</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">92826544.418049</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">91772302.41322</td>
+  
+				<td class=xl81 x:num>93851341.508759</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Working</i> <i>Capital</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Investasi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>37632268.869718</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>42299289.331507</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>43932334.301202</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>42475814.820268</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>44052235.157985</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">44099320.151421</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">51438234.356147</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">51840968.047308</td>
+  
+				<td class=xl81 x:num>51675768.234587</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">52351239.210077</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">52692262.640947</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">52633146.316375</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">52964534.527996</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">53243052.466457</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">54107625.384899</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">55025965.297584</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">55301745.895286</td>
+  
+				<td class=xl81 x:num>54338012.993736</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Investment</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl39></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Konsumsi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>31096708.32559</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>32221888.937166</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>28807235.401967</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>29504953.228954</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>34503388.921678</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">34740935.96593</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">34853323.499111</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">35210754.670154</td>
+  
+				<td class=xl81 x:num>35614531.714653</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">35725953.1197</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">35948348.440782</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">36615373.634686</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">36955988.351304</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">37269314.231853</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">37763925.927975</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">37975965.624834</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">37968299.495195</td>
+  
+				<td class=xl81 x:num>38807299.893955</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Consumption</i></td>
+  <td></td>
+ </tr>
+
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 align=right style='height:12.75pt' x:num>3</td>
+  <td colspan=4 class=xl39 style='border-right:.5pt solid black'>Wil. Kota Jakarta Barat                    <span style='mso-spacerun:yes'> </span></td>
+  
+			  <td class=xl40 style='border-left:none' x:num>180932777.858838</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>187933851.504972</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>174309611.108924</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>162496495.592409</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>186240072.720468</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">189205743.152527</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">190290364.371986</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">190543819.06232</td>
+  
+				<td class=xl81 x:num>191526008.551318</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">194450698.321182</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">197240984.577214</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">199637791.66486</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">200987518.268712</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">206509550.165708</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">207051681.65208</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">201834628.950945</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">205771454.414779</td>
+  
+				<td class=xl81 x:num>213277246.803021</td>  
+  <td class=xl34 align=right x:num>3</td>
+  <td colspan=4 class=xl39 style='border-right:1.0pt solid black'><i>West Jakarta</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Modal Kerja</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>103664362.390249</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>105120565.626776</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>95126884.552452</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>91086590.068234</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>103088478.477597</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">103848763.438304</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">103248815.230452</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">101663782.670696</td>
+  
+				<td class=xl81 x:num>102762549.992856</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">105062368.392173</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">107571520.701643</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">109108827.519397</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">109566232.889788</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">113519144.952464</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">111393120.360821</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">104519101.53099</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">107327940.511961</td>
+  
+				<td class=xl81 x:num>113159573.977735</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Working</i> <i>Capital</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Investasi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>40183602.793254</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>44602782.788912</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>44406416.354146</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>34915737.834541</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>42209607.047405</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">43746815.77503</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">45135566.732265</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">46645021.13408</td>
+  
+				<td class=xl81 x:num>46255213.39034</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">46588319.784289</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">46336373.454651</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">46841751.498016</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">47315765.607157</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">48023134.994109</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">50176523.833384</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">51842118.813364</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">52934763.813565</td>
+  
+				<td class=xl81 x:num>54145422.47749</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Investment</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl39></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Konsumsi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>37084812.675335</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>38210503.089284</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>34776310.202326</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>36494167.689634</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>40941987.195466</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">41610163.939193</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">41905982.409269</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">42235015.257544</td>
+  
+				<td class=xl81 x:num>42508245.168122</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">42800010.14472</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">43333090.42092</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">43687212.647447</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">44105519.771767</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">44967270.219135</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">45482037.457875</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">45473408.606591</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">45508750.089253</td>
+  
+				<td class=xl81 x:num>45972250.347796</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Consumption</i></td>
+  <td></td>
+ </tr>
+
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 align=right style='height:12.75pt' x:num>4</td>
+  <td colspan=4 class=xl39 style='border-right:.5pt solid black'>Wil. Kota Jakarta Selatan                  <span style='mso-spacerun:yes'> </span></td>
+  
+			  <td class=xl40 style='border-left:none' x:num>560997691.171392</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>573048461.538913</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>588811014.892436</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>636490841.053053</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>726213071.110123</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">715436276.873575</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">722823260.22368</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">751127540.656866</td>
+  
+				<td class=xl81 x:num>761555405.576834</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">755236177.577193</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">762139266.156084</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">779034709.46035</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">789130608.546234</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">799929186.352872</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">825904770.640984</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">824827586.006503</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">833585249.169573</td>
+  
+				<td class=xl81 x:num>866828424.723311</td>  
+  <td class=xl34 align=right x:num>4</td>
+  <td colspan=4 class=xl39 style='border-right:1.0pt solid black'><i>South Jakarta</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Modal Kerja</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>307312087.654935</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>290709893.945496</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>282939073.180513</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>323498358.323621</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>391727676.429029</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">392815101.223982</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">400425234.225078</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">420438086.38959</td>
+  
+				<td class=xl81 x:num>429165247.982976</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">417789093.074588</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">423884141.717072</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">439745392.780603</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">445191068.22409</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">451020398.170773</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">458393782.087917</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">456459756.663863</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">464675512.115499</td>
+  
+				<td class=xl81 x:num>489959205.599126</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Working</i> <i>Capital</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Investasi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>179100973.222176</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>204223152.145288</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>236552329.205344</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>244321072.321955</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>259010557.765236</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">245965114.138812</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">245507879.900978</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">253564661.207496</td>
+  
+				<td class=xl81 x:num>254738708.328652</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">259652746.841769</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">259651896.04638</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">259685187.592945</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">263654017.785367</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">271687604.97532</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">288486916.071263</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">289128480.477655</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">289270727.408525</td>
+  
+				<td class=xl81 x:num>296461973.530502</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Investment</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl39></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Konsumsi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>74584630.294281</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>78115415.448129</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>69319612.506579</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>68671410.407477</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>75474836.915858</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">76656061.510781</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">76890146.097624</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">77124793.05978</td>
+  
+				<td class=xl81 x:num>77651449.265206</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">77794337.660836</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">78603228.392632</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">79604129.086802</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">80285522.536777</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">77221183.206779</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">79024072.481804</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">79239348.864985</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">79639009.645549</td>
+  
+				<td class=xl81 x:num>80407245.593683</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Consumption</i></td>
+  <td></td>
+ </tr>
+
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 align=right style='height:12.75pt' x:num>5</td>
+  <td colspan=4 class=xl39 style='border-right:.5pt solid black'>Wil. Kota Jakarta Timur                    <span style='mso-spacerun:yes'> </span></td>
+  
+			  <td class=xl40 style='border-left:none' x:num>157987654.719296</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>191021220.335178</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>210037853.390559</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>212576964.577825</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>225332044.396347</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">223177000.710541</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">223736611.200998</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">224236462.013208</td>
+  
+				<td class=xl81 x:num>224845633.42881</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">229820169.84159</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">232580841.851684</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">243020225.406173</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">246104444.571171</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">246747474.585883</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">247321095.975157</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">241943983.55425</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">241493741.454562</td>
+  
+				<td class=xl81 x:num>242804132.051959</td>  
+  <td class=xl34 align=right x:num>5</td>
+  <td colspan=4 class=xl39 style='border-right:1.0pt solid black'><i>East Jakarta</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Modal Kerja</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>91395201.033728</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>103858164.81096</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>118060705.372597</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>119260530.917874</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>130843705.040424</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">130095757.039788</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">130642422.533531</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">130480501.922337</td>
+  
+				<td class=xl81 x:num>135156200.593629</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">139200534.223199</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">143463467.441219</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">153368571.796075</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">155014823.966656</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">154362102.805464</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">154908222.202539</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">149178981.661291</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">148623165.81069</td>
+  
+				<td class=xl81 x:num>148871788.228713</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Working</i> <i>Capital</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Investasi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>34863278.770851</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>53826858.101765</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>59606669.175628</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>59136793.994361</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>55543409.591768</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">53481737.71419</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">53354844.025926</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">53833028.492463</td>
+  
+				<td class=xl81 x:num>49472012.048615</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">50009857.594439</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">48090970.642274</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">48913154.659186</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">49944120.717108</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">50703779.320309</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">50182639.758056</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">50479656.043793</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">50430560.306032</td>
+  
+				<td class=xl81 x:num>51051770.245886</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Investment</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl39></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Konsumsi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>31729174.914717</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>33336197.422453</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>32370478.842334</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>34179639.66559</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>38944929.764155</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">39599505.956563</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">39739344.641541</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">39922931.598408</td>
+  
+				<td class=xl81 x:num>40217420.786566</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">40609778.023952</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">41026403.768191</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">40738498.950912</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">41145499.887407</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">41681592.46011</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">42230234.014562</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">42285345.849166</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">42440015.33784</td>
+  
+				<td class=xl81 x:num>42880573.57736</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Consumption</i></td>
+  <td></td>
+ </tr>
+
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 align=right style='height:12.75pt' x:num>6</td>
+  <td colspan=4 class=xl39 style='border-right:.5pt solid black'>Wil. Kepulauan Seribu                      <span style='mso-spacerun:yes'> </span></td>
+  
+			  <td class=xl40 style='border-left:none' x:num>974300.380561</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>825035.005331</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>562502.263053</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>348764.18267</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>584499.269698</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">702638.6241</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">701951.042063</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">697954.279138</td>
+  
+				<td class=xl81 x:num>693035.054936</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">690867.657053</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">742836.903853</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">744130.72246</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">730952.672852</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">723288.732873</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">668391.894941</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">667457.09138</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">656765.366516</td>
+  
+				<td class=xl81 x:num>655546.455663</td>  
+  <td class=xl34 align=right x:num>6</td>
+  <td colspan=4 class=xl39 style='border-right:1.0pt solid black'><i>Thousand Island</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Modal Kerja</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>297193.730746</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>227276.590878</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>26044.223688</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>18822.530842</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>72283.80738</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">79823.246176</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">81344.65943</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">77945.433521</td>
+  
+				<td class=xl81 x:num>75245.902464</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">75823.015227</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">127200.809976</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">130514.641548</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">116391.76362</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">106291.96776</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">51766.366446</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">47627.208473</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">35442.119035</td>
+  
+				<td class=xl81 x:num>36583.449617</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Working</i> <i>Capital</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Investasi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>371056.560332</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>264938.953933</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>249645.763227</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>203212.232077</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>192944.844812</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">269712.591267</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">263172.46026</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">259723.311928</td>
+  
+				<td class=xl81 x:num>254344.857483</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">248756.309608</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">243206.159888</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">238697.254204</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">236281.346547</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">235068.842161</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">233375.019603</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">231014.063832</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">227728.533183</td>
+  
+				<td class=xl81 x:num>221881.451249</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Investment</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl39></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Konsumsi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>306050.089483</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>332819.46052</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>286812.276138</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>126729.419751</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>319270.617506</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">353102.786657</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">357433.922373</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">360285.533689</td>
+  
+				<td class=xl81 x:num>363444.294989</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">366288.332218</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">372429.933989</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">374918.826708</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">378279.562685</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">381927.922952</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">383250.508892</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">388815.819075</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">393594.714298</td>
+  
+				<td class=xl81 x:num>397081.554797</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Consumption</i></td>
+  <td></td>
+ </tr>
+
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 align=right style='height:12.75pt' x:num>7</td>
+  <td colspan=4 class=xl39 style='border-right:.5pt solid black'>JAKARTA<span style='mso-spacerun:yes'> </span></td>
+  
+			  <td class=xl40 style='border-left:none' x:num>1704357290.996674</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>1783429037.213321</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>1640176803.783641</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>1673097330.720124</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>1898677366.328962</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">1911241573.091047</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">1928761911.626315</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">1987453786.291369</td>
+  
+				<td class=xl81 x:num>2003409963.287598</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">2013128518.768831</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">2027450310.637774</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">2079286280.322257</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">2098620709.280051</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">2123036303.243753</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">2178012429.830509</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">2149910535.938321</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">2167608215.595359</td>
+  
+				<td class=xl81 x:num>2249135674.49428</td>  
+  <td class=xl34 align=right x:num>7</td>
+  <td colspan=4 class=xl39 style='border-right:1.0pt solid black'><i>JAKARTA</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Modal Kerja</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>958548921.267322</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>955356704.538642</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>864488316.939397</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>910528165.361214</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>1041595856.636451</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">1060601527.44191</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">1071789774.940224</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">1103712577.910561</td>
+  
+				<td class=xl81 x:num>1120278765.476752</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">1108927386.738991</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">1119175454.128939</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">1161893793.932099</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">1169901703.286528</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">1186092743.379672</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">1215802089.599215</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">1179409432.287381</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">1194138777.747091</td>
+  
+				<td class=xl81 x:num>1249746082.24842</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Working</i> <i>Capital</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Investasi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>512077010.709959</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>597740105.084313</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>565056482.646736</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>547398450.872941</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>614961643.039524</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">609652912.180952</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">615116990.044387</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">640331702.610809</td>
+  
+				<td class=xl81 x:num>637984353.482478</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">657185987.362883</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">658573620.819454</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">663699039.008841</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">672508130.790363</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">680796134.712288</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">701469732.589287</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">709475743.375579</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">711530806.230129</td>
+  
+				<td class=xl81 x:num>733266587.627023</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Investment</i></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl39></td>
+  <td class=xl42 x:str="'-">-</td>
+  <td colspan=2 class=xl39 style='border-right:.5pt solid black'>Konsumsi</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>233731359.019393</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>230332227.590366</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>210632004.197508</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>215170714.485969</td>
+  
+			  <td class=xl40 style='border-left:none' x:num>242119866.652987</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">240987133.468185</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">241855146.641704</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">243409505.769999</td>
+  
+				<td class=xl81 x:num>245146844.328368</td>  
+				<td class=xl40 x:num style='border-left:1.0pt solid windowtext' width="64">247015144.666957</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">249701235.689381</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">253693447.381317</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">256210875.20316</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">256147425.151793</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">260740607.642007</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">261025360.275361</td>
+  
+				<td class=xl40 x:num style='border-left:none' width="64">261938631.618139</td>
+  
+				<td class=xl81 x:num>266123004.618837</td>  
+  <td class=xl34>&nbsp;</td>
+  <td class=xl39 width="81"></td>
+  <td colspan=3 class=xl39 style='border-right:1.0pt solid black'>-&nbsp;&nbsp;
+	<i>Consumption</i></td>
+  <td></td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl54 style='height:13.5pt'>&nbsp;</td>
+  <td class=xl56 style="border-right-style: none; border-right-width: medium">&nbsp;</td>
+  <td class=xl56 style="border-left-style: none; border-left-width: medium; border-right-style: none; border-right-width: medium">&nbsp;</td>
+  <td class=xl56 style="border-left-style: none; border-left-width: medium; border-right-style: none; border-right-width: medium">&nbsp;</td>
+  <td class=xl56 style="border-left-style: none; border-left-width: medium">&nbsp;</td>
+  <td class=xl56>&nbsp;</td>
+  
+  <td class=xl56>&nbsp;</td>
+  <td class=xl56>&nbsp;</td>
+  
+  <td class=xl56>&nbsp;</td>
+  <td class=xl56>&nbsp;</td>
+  <td class=xl56>&nbsp;</td>
+  <td class=xl56>&nbsp;</td>
+  <td class=xl78 style='border-left:none' width="80">&nbsp;</td>
+  <td class=xl83 style='border-left:none' width="79">&nbsp;</td>
+  <td class=xl56 style='border-left:1.0pt solid black'>&nbsp;</td>
+  <td class=xl57>&nbsp;</td>
+  <td class=xl57>&nbsp;</td>
+  <td class=xl57>&nbsp;</td>
+  <td class=xl57>&nbsp;</td>
+  <td class=xl57>&nbsp;</td>
+  <td class=xl57>&nbsp;</td>
+  <td class=xl57>&nbsp;</td>
+  <td class=xl57>&nbsp;</td>
+  <td class=xl58>&nbsp;</td>
+  <td class=xl54>&nbsp;</td>
+  <td class=xl55>&nbsp;</td>
+  <td class=xl55>&nbsp;</td>
+  <td class=xl55>&nbsp;</td>
+  <td class=xl59>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 colspan=5 class=xl25 style='height:12.75pt;mso-ignore:colspan'></td>
+  <td colspan=23 style='mso-ignore:colspan'></td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=17 style='width:13pt'></td>
+  <td width=18 style='width:14pt'></td>
+  <td width=26 style='width:20pt'></td>
+  <td width=26 style='width:20pt'></td>
+  <td width=168 style='width:126pt'></td>
+  <td width=60 style='width:45pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td style='width:81px'></td>
+  <td style='width:78px'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=20 style='width:15pt'></td>
+  <td width=21 style='width:16pt'></td>
+  <td width=21 style='width:16pt'></td>
+  <td width=18 style='width:14pt'></td>
+  <td width=24 style='width:18pt'></td>
+  <td width=224 style='width:168pt'></td>
+  <td width=64 style='width:48pt'></td>
+ </tr>
+ <![endif]>
+</table>
+<table  >
+<tr>
+<td colspan=20> Keterangan :  
+</td>
+</tr>
+<tr>
+<td colspan=20> 1)Untuk data sebelum tahun <u>2010</u> tidak termasuk data Kabupaten/Dati II Lainnya.
+</td>
+</tr>
+
+<tr> 
+<td colspan=20>Note untuk perhatian KPWDN: untuk kasus penghilangan data kabupaten lainnya terkait penyajian data</td>
+</tr>
+<tr>
+<td colspan=20>sebelumnya khususnya th 2007 sd. 2009.</td>
+</tr>
+<tr>
+<td colspan=20>2) Sejak Mei 2014 terdapat perubahan cakupan dan klasifikasi data Dana berkaitan dengan implementasi Laporan Bulanan Bank Umum Syariah (LBUS) Laporan Stabilitas Moneter dan Sistem Keuangan (LSMK). Penjelasan lebih lanjut terdapat di Metadata.
+</td>
+</tr>
+
+
+
+
+
+
+
+</table>
+
+</body>
+
+</html>
