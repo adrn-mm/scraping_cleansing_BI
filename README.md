@@ -1,7 +1,8 @@
-# Progres
+# Checklist
 
-- [ ] Develop script scraping
-- [ ] Develop script cleansing
+- [x] Develop script scraping
+- [ ] Develop script transform data
+- [ ] Develop script put data to HDFS & Hive (Cloudera Env)
 
 # Task
 
@@ -10,3 +11,7 @@
   - Bagian kategori : Kegiatan Perbankan
   - Dengan kategori statistic no 4 dan 16 untuk setiap provinsi
 - Buat script untuk transform excelnya menjadi format tabel seperti berikut:![](https://i.imgur.com/sscTMxW.png)
+
+# Progress
+
+- Sudah berhasil scraping, download, dan unzip seluruh file dengan rata-rata durasi waktu 15 menit.
