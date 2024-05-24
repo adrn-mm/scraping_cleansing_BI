@@ -15,3 +15,7 @@
 # Progress
 
 - Sudah berhasil scraping, download, dan unzip seluruh file dengan rata-rata durasi waktu 15 menit.
+
+> [!NOTE]
+>
+> - Saya menggunakan driver firefox karena nanti saat implementasi di Docker menggunaka firefox
