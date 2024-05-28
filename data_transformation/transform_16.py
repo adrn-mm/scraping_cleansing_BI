@@ -165,7 +165,7 @@ def Transform16(file_p, excel_file_p):
     df_all = df_all[['Propinsi', 'Dati II', 'Tahun', 'Bulan', 'Tipe', 'Nominal']]
 
     # Print the DataFrame
-    print(df_all)
+    # print(df_all)
 
     # Save to excel
     df_all.to_excel(excel_file_p, index=False, sheet_name='Summary')

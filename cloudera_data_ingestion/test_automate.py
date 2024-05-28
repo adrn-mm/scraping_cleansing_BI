@@ -66,4 +66,4 @@ def AutoScrape(data_directory: str):
             printProgressBar(i+1, total_files, prefix = 'Progress:', suffix = 'Complete', length = 50)
             i += 1
 
-AutoScrape("./web_scraping/scraped_data/scraped_data_2024-05-24_15-23-07")
+AutoScrape("./web_scraping\scraped_data\scraped_data_2024-05-24_16-02-11")
