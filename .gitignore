@@ -1,2 +1,6 @@
 .venv
 web_scraping/geckodriver.log
+
+__pycache__/
+
+*.egg-info/
