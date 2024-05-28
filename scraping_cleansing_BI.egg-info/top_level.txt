@@ -1,3 +1,0 @@
-cloudera_data_ingestion
-data_transformation
-web_scraping
