@@ -1,7 +1,7 @@
 # Checklist
 
 - [x] ~~Develop script scraping~~
-- [x] Develop script transform data
+- [x] ~~Develop script transform data~~
 - [ ] Develop script put data to HDFS & Hive (Cloudera Env)
 
 # Task
@@ -19,3 +19,6 @@
 > [!NOTE]
 >
 > - Saya menggunakan driver firefox karena nanti saat implementasi di Docker menggunaka firefox
+
+# Setup
+> - pip install -e .
