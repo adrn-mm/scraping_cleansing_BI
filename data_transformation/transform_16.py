@@ -93,7 +93,6 @@ def get_values(df: pd.DataFrame, ym_list, start_x_index):
     def get_row_index(dfp, product: ProductType, current_row_index):
         row = dfp.iloc[current_row_index:current_row_index+4, 3] == product.value
         row = row.astype(int).idxmax()
-        print(current_row_index, product, row)
         return row
 
     # Get the index of the first entry
@@ -102,7 +101,7 @@ def get_values(df: pd.DataFrame, ym_list, start_x_index):
     # Table height
     height = df.shape[0]
 
-    while current_row_index <= height:
+    while current_row_index < height:
         dati_ii = df.iloc[current_row_index, 1]
         if pd.isna(dati_ii) or dati_ii == globals()["Propinsi"]:
             current_row_index += ROW_INDEX_INC

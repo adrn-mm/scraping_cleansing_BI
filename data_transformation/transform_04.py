@@ -106,7 +106,7 @@ def get_values(df: pd.DataFrame, ym_list, start_x_index):
     # Table height
     height = df.shape[0]
 
-    while current_row_index <= height:
+    while current_row_index < height:
         dati_ii = df.iloc[current_row_index, 1]
         if pd.isna(dati_ii) or dati_ii == globals()["Propinsi"]:
             current_row_index += ROW_INDEX_INC
