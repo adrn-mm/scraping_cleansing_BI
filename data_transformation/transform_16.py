@@ -126,8 +126,6 @@ def get_values(df: pd.DataFrame, ym_list, start_x_index):
             current_row_index = sliced_df[sliced_df == "1"].index[0]
             curr = Currency.Asing if curr != Currency.Asing else Currency.Rupiah
             high_flag = True
-        print(curr)
-        print(current_row_index)
         if current_row_index > jumlah_index:
             break
 
