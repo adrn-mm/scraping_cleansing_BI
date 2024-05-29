@@ -76,54 +76,47 @@ for i in range(total_options):
     # Get hrefs of the categories
     category_details = [get_cell_href(number) for number in [4, 16]]
     
-    all_links.extend(category_details)
+    all_links.append(category_details)
 
 # close the browser 1
 driver_1.quit()
 print("Scraping completed!")
+# print(all_links)
 
 # download all links to the root folder
+# download all links to the root folder
 print("Downloading files...")    
-for link, province_name in zip(all_links, all_province_names):
-    # set download dit
-    download_dir = os.path.join(os.getcwd(),
-                                os.path.join('scraped_data', root_folder))
-        
-    # set the path
-    local_filename =  os.path.join('scraped_data',
-                                   root_folder,
-                                   link.split('/')[-1])
-        
-    # set the 2nd driver
-    options.set_preference("browser.download.folderList", 2) 
-    options.set_preference("browser.download.dir", download_dir)
-    options.add_argument('--headless')
-    driver_2 = webdriver.Firefox(options=options)
+for links, province_name in zip(all_links, all_province_names):
+    # set download dir
+    download_dir = os.path.join(os.getcwd(), 'scraped_data', root_folder, province_name)
     
-    driver_2.set_page_load_timeout(10)
-    try:
-        print(f"Downloading {province_name} file...")
-        driver_2.get(link)
-    except TimeoutException:
-        # driver_2.execute_script("window.stop();")
-        driver_2.quit()
+    # Create the directory if it doesn't exist
+    os.makedirs(download_dir, exist_ok=True)
+    
+    for link in links:
+        # set the path
+        local_filename =  os.path.join(download_dir, link.split('/')[-1])
+    
+        # set the 2nd driver
+        options.set_preference("browser.download.folderList", 2) 
+        options.set_preference("browser.download.dir", download_dir)
+        options.add_argument('--headless')
+        driver_2 = webdriver.Firefox(options=options)
         
-    # Unzip the file
-    with ZipFile(local_filename, 'r') as zip_ref:
-        zip_ref.extractall() 
-    
-    # rename the files
-    old_file_names = ['ii04.xls', 'ii16.xls']
-    for old_file_name in old_file_names:
-        if os.path.isfile(old_file_name):
-            os.rename(old_file_name,
-                      os.path.join(os.path.join('scraped_data', root_folder),
-                                   province_name
-                                   +'_'+old_file_name)
-                      )
-    
-    # Remove the zip file
-    os.remove(local_filename)
+        driver_2.set_page_load_timeout(10)
+        try:
+            print(f"Downloading {province_name} file...")
+            driver_2.get(link)
+        except TimeoutException:
+            # driver_2.execute_script("window.stop();")
+            driver_2.quit()
+        
+        # Unzip the file
+        with ZipFile(local_filename, 'r') as zip_ref:
+            # Extract the file into the province directory
+            zip_ref.extractall(path=download_dir)
+        # Remove the zip file
+        os.remove(local_filename)
 
 # download complete
 print("Download completed!")
@@ -136,7 +129,7 @@ duration = (end_time - start_time)/60
 
 # Count the number of files in the root folder
 folder_path = os.path.join('scraped_data', root_folder)
-num_files = len([f for f in os.listdir(folder_path) if os.path.isfile(os.path.join(folder_path, f))])
+num_folders = len([f for f in os.listdir(folder_path) if os.path.isdir(os.path.join(folder_path, f))])
 
 # Convert the existing timestamp to the desired format
 timestamp = datetime.strptime(timestamp, '%Y-%m-%d_%H-%M-%S')
@@ -144,4 +137,4 @@ formatted_timestamp = timestamp.strftime('%Y-%m-%d %H:%M:%S')
 
 # Write the log
 with open('log.txt', 'a') as f:
-    f.write(f"Scraping on {formatted_timestamp} with duration {duration} minutes and scraped {num_files} files.\n")    
+    f.write(f"Scraping on {formatted_timestamp} with duration {duration} minutes and scraped {num_folders} folders.\n")    

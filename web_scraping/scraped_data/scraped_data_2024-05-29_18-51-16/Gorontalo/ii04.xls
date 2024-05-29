@@ -1,0 +1,3586 @@
+
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 11">
+<link rel=Edit-Time-Data href="II4_files/editdata.mso">
+<link rel=OLE-Object-Data href="II4_files/oledata.mso">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:LastAuthor>atet_w</o:LastAuthor>
+  <o:LastSaved>2006-09-14T08:54:31Z</o:LastSaved>
+  <o:Version>11.6568</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:.5in .75in .25in .75in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;}
+.font6
+	{color:windowtext;
+	font-size:10.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;}
+.font7
+	{color:windowtext;
+	font-size:10.0pt;
+	font-weight:700;
+	font-style:italic;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;}
+.font8
+	{color:windowtext;
+	font-size:10.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;}
+.font9
+	{color:windowtext;
+	font-size:10.0pt;
+	font-weight:700;
+	font-style:italic;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;}
+tr
+	{mso-height-source:auto;}
+col
+	{mso-width-source:auto;}
+br
+	{mso-data-placement:same-cell;}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:Normal;
+	mso-style-id:0;}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl24
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;}
+.xl25
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;}
+.xl26
+	{mso-style-parent:style0;
+	mso-number-format:"\@";}
+.xl27
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:1.0pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;}
+.xl28
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:1.0pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;}
+.xl29
+	{mso-style-parent:style0;
+	text-align:center;}
+.xl30
+	{mso-style-parent:style0;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:2.0pt double windowtext;
+	border-left:none;}
+.xl31
+	{mso-style-parent:style0;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:2.0pt double windowtext;
+	border-left:none;}
+.xl32
+	{mso-style-parent:style0;
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:2.0pt double windowtext;
+	border-left:none;}
+.xl33
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:1.0pt solid windowtext;}
+.xl34
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;}
+.xl35
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:none;}
+.xl36
+	{mso-style-parent:style0;
+	mso-number-format:"\#\,\#\#0";
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:none;}
+.xl37
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";}
+.xl38
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;}
+.xl39
+	{mso-style-parent:style0;
+	font-weight:200;
+	font-size:8.0pt;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\#\,\#\#0";
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;}
+.xl40
+	{mso-style-parent:style0;
+	font-weight:200;
+	font-size:8.0pt;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\#\,\#\#0";
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:none;}
+.xl41
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\#\,\#\#0";}
+.xl42
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";}
+.xl43
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-style:italic;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:none;}
+.xl44
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:left;}
+.xl45
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;}
+.xl46
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:none;
+	border-bottom:1.0pt solid windowtext;
+	border-left:1.0pt solid windowtext;}
+.xl47
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:none;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;}
+.xl48
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;}
+.xl49
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;}
+.xl50
+	{mso-style-parent:style0;
+	mso-number-format:"_\(* \#\',\#\#0_\)\;_\(* \\\(\#\',\#\#0\\\)\;_\(* \0022-\0022_\)\;_\(\@_\)";
+	border-top:medium none;
+	border-right:.5pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:medium none;}
+.xl51
+	{mso-style-parent:style0;
+	mso-number-format:"_\(* \#\',\#\#0_\)\;_\(* \\\(\#\',\#\#0\\\)\;_\(* \0022-\0022_\)\;_\(\@_\)";
+	border-top:medium none;
+	border-right:medium none;
+	border-bottom:1.0pt solid windowtext;
+	border-left:medium none;}
+.xl52
+	{mso-style-parent:style0;
+	font-style:italic;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;}
+.xl53
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-style:italic;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;}
+.xl54
+	{mso-style-parent:style0;
+	font-style:italic;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;}
+.xl55
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:1.0pt solid windowtext;}
+.xl56
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;}
+.xl57
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;}
+.xl58
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:2.0pt double black;
+	border-left:none;}
+.xl59
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;}
+.xl60
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:2.0pt double black;
+	border-left:.5pt solid windowtext;}
+.xl61
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:.5pt solid black;
+	border-bottom:none;
+	border-left:none;}
+.xl62
+	{mso-style-parent:style0;
+	mso-number-format:"\#\,\#\#0";}
+.xl63
+	{mso-style-parent:style0;
+	mso-number-format:"\#\,\#\#0";
+	border-top:none;
+	border-right:1.0pt solid black;
+	border-bottom:none;
+	border-left:none;}
+.xl64
+	{mso-style-parent:style0;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:2.0pt double windowtext;
+	border-left:1.0pt solid windowtext;}
+.xl65
+	{mso-style-parent:style0;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:2.0pt double windowtext;
+	border-left:none;}
+.xl66
+	{mso-style-parent:style0;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:2.0pt double windowtext;
+	border-left:none;}
+.xl67
+	{mso-style-parent:style0;
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:1.0pt solid windowtext;
+	border-bottom:2.0pt double windowtext;
+	border-left:none;}
+.xl68
+	{mso-style-parent:style0;
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:2.0pt double windowtext;
+	border-left:.5pt solid windowtext;}
+.xl69
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;}
+.xl70
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\#\,\#\#0";
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;}
+.xl71
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:.5pt solid windowtext;}
+.xl72
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-style:italic;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:1.0pt solid windowtext;
+	white-space:normal;}
+.xl73
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-style:italic;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	white-space:normal;}
+.xl74
+	{mso-style-parent:style0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:2.0pt double windowtext;
+	border-left:1.0pt solid windowtext;}
+.xl75
+	{mso-style-parent:style0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:2.0pt double windowtext;
+	border-left:none;}
+.xl76
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-style:italic;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid windowtext;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	white-space:normal;}
+.xl77
+	{mso-style-parent:style0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:2.0pt double windowtext;
+	border-left:none;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+  <x:ExcelWorksheets>
+   <x:ExcelWorksheet>
+    <x:Name>II.04</x:Name>
+    <x:WorksheetOptions>
+     <x:Print>
+      <x:FitWidth>2</x:FitWidth>
+      <x:ValidPrinterInfo/>
+      <x:PaperSizeIndex>9</x:PaperSizeIndex>
+      <x:Scale>65</x:Scale>
+      <x:HorizontalResolution>600</x:HorizontalResolution>
+      <x:VerticalResolution>600</x:VerticalResolution>
+     </x:Print>
+     <x:Selected/>
+     <x:DoNotDisplayGridlines/>
+     <x:Panes>
+      <x:Pane>
+       <x:Number>3</x:Number>
+       <x:ActiveRow>16</x:ActiveRow>
+       <x:ActiveCol>13</x:ActiveCol>
+      </x:Pane>
+     </x:Panes>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+  </x:ExcelWorksheets>
+  <x:WindowHeight>7935</x:WindowHeight>
+  <x:WindowWidth>15195</x:WindowWidth>
+  <x:WindowTopX>0</x:WindowTopX>
+  <x:WindowTopY>75</x:WindowTopY>
+  <x:ProtectStructure>False</x:ProtectStructure>
+  <x:ProtectWindows>False</x:ProtectWindows>
+ </x:ExcelWorkbook>
+ <x:ExcelName>
+  <x:Name>Print_Area</x:Name>
+  <x:SheetIndex>1</x:SheetIndex>
+  <x:Formula>='II.04'!$A$1:$AC$50</x:Formula>
+ </x:ExcelName>
+</xml><![endif]-->
+</head>
+
+<body link=blue vlink=purple>
+<!--The following information was generated by Microsoft Office Excel's Publish
+as Web Page wizard.--><!--If the same item is republished from Excel, all information between the DIV
+tags will be replaced.--><!-----------------------------><!--START OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD --><!----------------------------->
+
+<table x:str border=0 cellpadding=0 cellspacing=0 width=2608 style='border-collapse:
+ collapse;table-layout:fixed;width:1959pt'>
+ <col width=17 style='mso-width-source:userset;mso-width-alt:621;width:13pt'>
+ <col width=18 style='mso-width-source:userset;mso-width-alt:658;width:14pt'>
+ <col width=130 style='mso-width-source:userset;mso-width-alt:4754;width:98pt'>
+ <col width=26 span=2 style='mso-width-source:userset;mso-width-alt:950;
+ width:20pt'>
+ <col width=114 style='mso-width-source:userset;mso-width-alt:4169;width:86pt'>
+ <col width=60 style='mso-width-source:userset;mso-width-alt:2194;width:45pt'>
+ <col width=64 span=29 style='width:48pt'>
+ <col width=20 style='mso-width-source:userset;mso-width-alt:731;width:15pt'>
+ <col width=21 style='mso-width-source:userset;mso-width-alt:768;width:16pt'>
+ <col width=115 style='mso-width-source:userset;mso-width-alt:4205;width:86pt'>
+ <col width=18 style='mso-width-source:userset;mso-width-alt:658;width:14pt'>
+ <col width=24 style='mso-width-source:userset;mso-width-alt:877;width:18pt'>
+ <col width=99 style='mso-width-source:userset;mso-width-alt:3620;width:74pt'>
+ <col width=64 style='width:48pt'>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td colspan=15 height=17 class=xl25 width=1223 style='height:12.75pt;
+  width:920pt'
+  x:str="II.4 POSISI SIMPANAN MASYARAKAT RUPIAH DAN VALUTA ASING BANK UMUM DAN BPR ">II.4
+  POSISI SIMPANAN MASYARAKAT RUPIAH DAN VALUTA ASING BANK UMUM DAN BPR<span
+  style='mso-spacerun:yes'> </span></td>
+  <td colspan=14 class=xl53 width=1321 style='width:991pt'
+  x:str="II.4 OUTSTANDING OF PRIVATE DEPOSIT IN RUPIAH AND FOREIGN CURRENCY OF COMMERCIAL AND RURAL BANKS ">II.4
+  OUTSTANDING OF PRIVATE DEPOSIT IN RUPIAH AND FOREIGN CURRENCY OF COMMERCIAL
+  AND RURAL BANKS<span style='mso-spacerun:yes'> </span></td>
+  <td width=64 style='width:48pt'></td>
+ </tr>
+ <tr height=19 style='mso-height-source:userset;height:14.25pt'>
+  <td colspan=15 height=19 class=xl25 style='height:14.25pt'>MENURUT KOTA/KABUPATEN 
+	BERDASARKAN LOKASI KANTOR PENGHIMPUN DANA DI PROPINSI GORONTALO</td>
+  <td colspan=14 class=xl53><span style='mso-spacerun:yes'> </span>BY REGIONS 
+	BASED ON BANK'S OFFICE FUNDS LOCATION IN PROVINCE OF <font
+  class="font7">GORONTALO</font></td>
+  <td></td>
+ </tr>
+ <tr class=xl24 height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td colspan=15 height=17 class=xl25 style='height:12.75pt'>
+	<span style="font-weight: 400">(Juta Rp)</span></td>
+  <td colspan=14 class=xl54>(Million of Rp)</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 colspan=15 class=xl26 style='height:13.5pt;mso-ignore:colspan'></td>
+  <td colspan=15 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr class=xl25 height=35 style='mso-height-source:userset;height:26.25pt'>
+  <td colspan=6 rowspan=2 height=53 class=xl55 style='border-right:.5pt solid black;
+  border-bottom:2.0pt double black;height:39.75pt'>Dati II dan Jenis Simpanan</td>
+  
+  <td rowspan=2 class=x128 style='font-weight:700;text-align:center;border-bottom:2.0pt double black;vertical-align:middle;border-top:1.0pt solid windowtext;border-right:.5pt solid windowtext' x:num>2019</td>
+  <td rowspan=2 class=x128 style='font-weight:700;text-align:center;border-bottom:2.0pt double black;vertical-align:middle;border-top:1.0pt solid windowtext;border-right:.5pt solid windowtext' x:num>2020</td><td rowspan=2 class=x128 style='font-weight:700;text-align:center;border-bottom:2.0pt double black;vertical-align:middle;border-top:1.0pt solid windowtext;border-right:.5pt solid windowtext' x:num>2021</td><td rowspan=2 class=x128 style='font-weight:700;text-align:center;border-bottom:2.0pt double black;vertical-align:middle;border-top:1.0pt solid windowtext;border-right:.5pt solid windowtext' x:num>2022</td><td rowspan=2 class=x128 style='font-weight:700;text-align:center;border-bottom:2.0pt double black;vertical-align:middle;border-top:1.0pt solid windowtext;border-right:.5pt solid windowtext' x:num>2023</td><td colspan=4 class=xl28 style='border-right:1.0pt solid black;border-left:none' x:num>2023</td><td colspan=6 class=xl28 style='border-right:.5pt solid windowtext;border-left:none' x:num>2023</td><td colspan=3 class=xl28 style='border-right:.5pt solid windowtext;border-left:none' x:num>2024</td>
+  <td colspan=5 rowspan=2 class=xl72 width=297 style='border-right:1.0pt solid black;
+  border-bottom:2.0pt double black;width:223pt'>Regions and Type of Deposit</td>
+  <td rowspan=2 class=xl25></td>
+ </tr>
+ <tr class=xl29 height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td class=xl30 style='border-top:.5pt solid black;border-left:none'>Mar</td><td class=xl30 style='border-top:.5pt solid black;border-left:none'>Apr</td><td class=xl30 style='border-top:.5pt solid black;border-left:none'>May</td><td class=xl30 style='border-top:.5pt solid black;border-right:1.0pt solid black;border-left:none'>Jun</td><td class=xl30 style='border-top:.5pt solid black;border-left:1.0pt solid black'>Jul</td><td class=xl30 style='border-top:.5pt solid black;border-left:none'>Aug</td><td class=xl30 style='border-top:.5pt solid black;border-left:none'>Sep</td><td class=xl30 style='border-top:.5pt solid black;border-left:none'>Oct</td><td class=xl30 style='border-top:.5pt solid black;border-left:none'>Nov</td><td class=xl30 style='border-top:.5pt solid black;border-left:none'>Dec</td><td class=xl30 style='border-top:.5pt solid black;border-left:none'>Jan</td><td class=xl30 style='border-top:.5pt solid black;border-left:none'>Feb</td><td class=xl30 style='border-top:.5pt solid black;border-left:none'>Mar</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl33 style='height:13.5pt'>&nbsp;</td>
+  <td colspan=4 style='mso-ignore:colspan'></td>
+  <td class=xl34>&nbsp;</td>
+  <td class=xl34>&nbsp;</td>
+  <td class=xl34>&nbsp;</td>
+  <td class=xl34>&nbsp;</td>
+  <td class=xl34>&nbsp;</td>
+  <td class=xl34>&nbsp;</td>
+  <td class=xl34>&nbsp;</td>
+  <td class=xl34>&nbsp;</td>
+  <td class=xl69 style='border-left:none'>&nbsp;</td>
+  <td class=xl35>&nbsp;</td>
+  <td class=xl34 style='border-left:1.0pt solid black'>&nbsp;</td>
+  <td class=xl34>&nbsp;</td>
+  <td class=xl34>&nbsp;</td>
+  <td class=xl34>&nbsp;</td>
+  <td class=xl34>&nbsp;</td>
+  <td class=xl34>&nbsp;</td>
+  <td class=xl34>&nbsp;</td>
+  <td class=xl34>&nbsp;</td>
+  <td></td>
+  <td class=xl33>&nbsp;</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+  <td class=xl36>&nbsp;</td>
+  <td></td>
+ </tr>
+ 
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 align=right style='height:12.75pt' x:num>1</td>
+  <td colspan=3 class=xl37>Kab. Gorontalo                             <span
+  style='mso-spacerun:yes'> </span></td>
+  <td class=xl37 style='mso-ignore:colspan'></td>
+  <td class=xl39>&nbsp;</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>1110453.710826</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>1165453.7114</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>1422521.392975</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>1405631.213726</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>1209798.594231</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1294676.946663</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1305332.025988</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1275691.493744</td>
+  
+				<td class=xl40 x:num>1390511.41162</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">1401908.64391</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1329900.031161</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1320388.452667</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1301807.590309</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1282231.825632</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1209798.594231</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1261986.587577</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1212095.861279</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1293359.239579</td>
+  
+  <td class=xl33 align=right x:num>1</td>
+  <td colspan=2 class=xl37>Gorontalo Municipal</td>
+  <td class=xl42></td>
+  <td class=xl43>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl44 x:str="Giro ">Giro<span style='mso-spacerun:yes'> </span></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Nominal</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>88551.062874</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>91146.545646</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>241802.547187</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>184457.566871</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>100110.331399</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">188997.201886</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">165842.226864</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">136458.568794</td>
+  
+				<td class=xl40 x:num>230499.326311</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">201616.144903</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">151289.169946</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">163391.863891</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">157218.698947</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">158786.872784</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">100110.331399</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">176943.594946</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">117074.006437</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">156140.291864</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 colspan="2">&nbsp;&nbsp;&nbsp; Demand Deposit</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Nominal<span style='mso-spacerun:yes'> </span></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl45></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Rekening (satuan)</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>2977</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>3472</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>3927</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>3916</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>3277</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">3343</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">3359</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4357</td>
+  
+				<td class=xl40 x:num>3386</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">3426</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">3424</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">3430</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">3441</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">3436</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">3277</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">3325</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">3306</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">3333</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 style='mso-ignore:colspan'></td>
+  <td>&nbsp;</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Account
+  (number)</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl37>Simpanan Berjangka</td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Nominal</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>167624.449284</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>196093.887405</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>183173.046051</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>172710.487967</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>181410.273751</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">230535.642597</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">232900.270364</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">242273.603873</td>
+  
+				<td class=xl40 x:num>254225.259911</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">276283.438413</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">279452.553142</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">264153.449761</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">267597.439435</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">241480.78211</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">181410.273751</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">219095.63992</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">216045.548884</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">216267.95549</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 colspan="2">&nbsp;&nbsp;&nbsp; Time Deposit</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Nominal<span style='mso-spacerun:yes'> </span></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl45></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Rekening (satuan)</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>965</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>1044</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>912</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>939</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>866</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">916</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">906</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">909</td>
+  
+				<td class=xl40 x:num>925</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">933</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">903</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">899</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">911</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">886</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">866</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">867</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">877</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">904</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 style='mso-ignore:colspan'></td>
+  <td>&nbsp;</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Account
+  (number)</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl37></td>
+  <td class=xl37 x:str="Tabungan                 ">Tabungan<span
+  style='mso-spacerun:yes'>                 </span></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Nominal</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>854278.198668</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>878213.278349</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>997545.799737</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>1048463.158888</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>928277.989081</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">875144.10218</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">906589.52876</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">896959.321077</td>
+  
+				<td class=xl40 x:num>905786.825398</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">924009.060594</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">899158.308073</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">892843.139015</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">876991.451927</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">881964.170738</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">928277.989081</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">865947.352711</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">878976.305958</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">920950.992225</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 colspan="2">&nbsp;&nbsp;&nbsp; Saving Deposit</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Nominal<span style='mso-spacerun:yes'> </span></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl37></td>
+  <td class=xl45></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Jumlah bilyet (satuan)</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>461684</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>546494</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>626101</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>526468</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>477227</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">431839</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">445998</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">440018</td>
+  
+				<td class=xl40 x:num>441689</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">444585</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">450574</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">454138</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">474597</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">471152</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">477227</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">490474</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">478901</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">483894</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 style='mso-ignore:colspan'></td>
+  <td>&nbsp;</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Bilyet
+  (number)</td>
+  <td></td>
+ </tr>
+
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 align=right style='height:12.75pt' x:num>2</td>
+  <td colspan=3 class=xl37>Kab. Bualemo                               <span
+  style='mso-spacerun:yes'> </span></td>
+  <td class=xl37 style='mso-ignore:colspan'></td>
+  <td class=xl39>&nbsp;</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>185648.49646</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>188242.852257</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>259923.319383</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>221536.390922</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>299499.493874</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">306500.178376</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">302823.208195</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">295231.973909</td>
+  
+				<td class=xl40 x:num>352341.609464</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">342382.71414</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">347107.869921</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">357605.502264</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">382237.915338</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">365168.611537</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">299499.493874</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">302606.05615</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">342658.791245</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">364255.686108</td>
+  
+  <td class=xl33 align=right x:num>2</td>
+  <td colspan=2 class=xl37>Bualemo Municipal</td>
+  <td class=xl42></td>
+  <td class=xl43>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl44 x:str="Giro ">Giro<span style='mso-spacerun:yes'> </span></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Nominal</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>30336.1773</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>39224.584605</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>56353.798027</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>38322.046228</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>52245.933534</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">74508.919043</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">57481.1417</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">61853.286881</td>
+  
+				<td class=xl40 x:num>101389.918371</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">99465.06151</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">99529.33362</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">101760.659281</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">120033.649404</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">104917.174706</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">52245.933534</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">81482.598954</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">139730.446807</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">138264.494569</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 colspan="2">&nbsp;&nbsp;&nbsp; Demand Deposit</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Nominal<span style='mso-spacerun:yes'> </span></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl45></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Rekening (satuan)</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>704</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>709</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>736</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>731</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>1237</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1394</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1403</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1577</td>
+  
+				<td class=xl40 x:num>1388</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">1413</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1389</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1388</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1383</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1375</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1237</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1367</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1328</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1296</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 style='mso-ignore:colspan'></td>
+  <td>&nbsp;</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Account
+  (number)</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl37>Simpanan Berjangka</td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Nominal</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>21774.3</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>21999.3</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>18936.8</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>21600.083533</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>20666.395819</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">45592.622534</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">35842.541214</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">35168.06632</td>
+  
+				<td class=xl40 x:num>41072.442681</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">40947.167592</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">41744.912927</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">42381.723094</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">40972.0016</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">40816.35365</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">20666.395819</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">21487.464538</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">19267.351763</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">18976.601753</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 colspan="2">&nbsp;&nbsp;&nbsp; Time Deposit</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Nominal<span style='mso-spacerun:yes'> </span></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl45></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Rekening (satuan)</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>116</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>116</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>131</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>132</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>143</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">125</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">130</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">139</td>
+  
+				<td class=xl40 x:num>156</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">156</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">153</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">160</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">153</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">150</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">143</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">142</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">137</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">139</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 style='mso-ignore:colspan'></td>
+  <td>&nbsp;</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Account
+  (number)</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl37></td>
+  <td class=xl37 x:str="Tabungan                 ">Tabungan<span
+  style='mso-spacerun:yes'>                 </span></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Nominal</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>133538.01916</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>127018.967652</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>184632.721356</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>161614.261161</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>226587.164521</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">186398.636799</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">209499.525281</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">198210.620708</td>
+  
+				<td class=xl40 x:num>209879.248412</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">201970.485038</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">205833.623374</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">213463.119889</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">221232.264334</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">219435.083181</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">226587.164521</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">199635.992658</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">183660.992675</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">207014.589786</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 colspan="2">&nbsp;&nbsp;&nbsp; Saving Deposit</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Nominal<span style='mso-spacerun:yes'> </span></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl37></td>
+  <td class=xl45></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Jumlah bilyet (satuan)</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>77097</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>83043</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>97522</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>88777</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>161718</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">147421</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">152812</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">150195</td>
+  
+				<td class=xl40 x:num>150687</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">151681</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">153400</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">154070</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">160093</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">159558</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">161718</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">165885</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">162367</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">164370</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 style='mso-ignore:colspan'></td>
+  <td>&nbsp;</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Bilyet
+  (number)</td>
+  <td></td>
+ </tr>
+
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 align=right style='height:12.75pt' x:num>3</td>
+  <td colspan=3 class=xl37>Kab. Bonebolango                           <span
+  style='mso-spacerun:yes'> </span></td>
+  <td class=xl37 style='mso-ignore:colspan'></td>
+  <td class=xl39>&nbsp;</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>218739.821996</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>221164.678565</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>278303.932775</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>316213.529963</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>277690.345399</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">392246.240057</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">401904.277392</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">385111.571481</td>
+  
+				<td class=xl40 x:num>403632.757561</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">413411.114421</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">376275.189779</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">355469.553117</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">375819.692933</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">354219.167609</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">277690.345399</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">286618.860993</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">323405.903302</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">346120.201963</td>
+  
+  <td class=xl33 align=right x:num>3</td>
+  <td colspan=2 class=xl37>Bonebolango Municipal</td>
+  <td class=xl42></td>
+  <td class=xl43>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl44 x:str="Giro ">Giro<span style='mso-spacerun:yes'> </span></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Nominal</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>8022.85949</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>11044.677863</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>42678.973855</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>101938.933984</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>49123.247269</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">90919.600917</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">77525.188875</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">53909.835993</td>
+  
+				<td class=xl40 x:num>59371.802215</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">79520.658121</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">46337.49038</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">52335.26835</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">83114.868528</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">59684.582649</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">49123.247269</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">40930.098909</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">67214.513514</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">54399.538915</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 colspan="2">&nbsp;&nbsp;&nbsp; Demand Deposit</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Nominal<span style='mso-spacerun:yes'> </span></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl45></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Rekening (satuan)</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>624</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>661</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>806</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>850</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>842</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">893</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">894</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1029</td>
+  
+				<td class=xl40 x:num>903</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">902</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">910</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">909</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">907</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">906</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">842</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">896</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">861</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">856</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 style='mso-ignore:colspan'></td>
+  <td>&nbsp;</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Account
+  (number)</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl37>Simpanan Berjangka</td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Nominal</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>25178.2</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>30951.618849</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>33701.7</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>16969.6</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>15547.5</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">111604</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">110898.5</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">110415</td>
+  
+				<td class=xl40 x:num>119814.9</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">119302.9</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">120567.4</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">99853.4</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">90833.5</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">90887.5</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">15547.5</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">46081.5</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">59213.5</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">57108.5</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 colspan="2">&nbsp;&nbsp;&nbsp; Time Deposit</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Nominal<span style='mso-spacerun:yes'> </span></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl45></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Rekening (satuan)</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>182</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>195</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>181</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>71</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>91</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">91</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">93</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">92</td>
+  
+				<td class=xl40 x:num>99</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">96</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">102</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">84</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">82</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">84</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">91</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">108</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">105</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">99</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 style='mso-ignore:colspan'></td>
+  <td>&nbsp;</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Account
+  (number)</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl37></td>
+  <td class=xl37 x:str="Tabungan                 ">Tabungan<span
+  style='mso-spacerun:yes'>                 </span></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Nominal</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>185538.762506</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>179168.381853</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>201923.25892</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>197304.995979</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>213019.59813</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">189722.63914</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">213480.588517</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">220786.735488</td>
+  
+				<td class=xl40 x:num>224446.055346</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">214587.5563</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">209370.299399</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">203280.884767</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">201871.324405</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">203647.08496</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">213019.59813</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">199607.262084</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">196977.889788</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">234612.163048</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 colspan="2">&nbsp;&nbsp;&nbsp; Saving Deposit</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Nominal<span style='mso-spacerun:yes'> </span></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl37></td>
+  <td class=xl45></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Jumlah bilyet (satuan)</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>104068</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>123331</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>149754</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>120297</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>131990</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">119415</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">122603</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">120997</td>
+  
+				<td class=xl40 x:num>122241</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">122884</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">125095</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">125516</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">129729</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">131123</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">131990</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">136322</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">134396</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">136539</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 style='mso-ignore:colspan'></td>
+  <td>&nbsp;</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Bilyet
+  (number)</td>
+  <td></td>
+ </tr>
+
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 align=right style='height:12.75pt' x:num>4</td>
+  <td colspan=3 class=xl37>Kab. Pohuwato                              <span
+  style='mso-spacerun:yes'> </span></td>
+  <td class=xl37 style='mso-ignore:colspan'></td>
+  <td class=xl39>&nbsp;</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>392349.900935</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>397591.017446</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>471452.080143</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>458376.590836</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>462920.086525</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">450177.161063</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">475734.802158</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">443078.257452</td>
+  
+				<td class=xl40 x:num>484873.227703</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">502058.504355</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">516600.56774</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">495028.637903</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">491292.8584</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">499372.158963</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">462920.086525</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">484961.880988</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">455380.374122</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">496146.144767</td>
+  
+  <td class=xl33 align=right x:num>4</td>
+  <td colspan=2 class=xl37>Pahuwato Municipal</td>
+  <td class=xl42></td>
+  <td class=xl43>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl44 x:str="Giro ">Giro<span style='mso-spacerun:yes'> </span></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Nominal</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>47991.221484</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>40687.38887</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>115465.609696</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>76849.822039</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>37851.080613</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">71154.346993</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">84002.996719</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">58570.780767</td>
+  
+				<td class=xl40 x:num>82522.851962</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">91493.810755</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">103247.846358</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">102739.75109</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">90732.305015</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">88293.57646</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">37851.080613</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">96462.987909</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">89970.71451</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">104083.862328</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 colspan="2">&nbsp;&nbsp;&nbsp; Demand Deposit</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Nominal<span style='mso-spacerun:yes'> </span></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl45></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Rekening (satuan)</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>1209</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>1141</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>1161</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>1026</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>1039</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1255</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1200</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1765</td>
+  
+				<td class=xl40 x:num>1177</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">1190</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1203</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1188</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1223</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1215</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1039</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1350</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1352</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1347</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 style='mso-ignore:colspan'></td>
+  <td>&nbsp;</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Account
+  (number)</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl37>Simpanan Berjangka</td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Nominal</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>51933.264204</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>36436.379802</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>30084.253834</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>32200.691913</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>40069.32808</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">31533.238533</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">32128.656696</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">32906.152174</td>
+  
+				<td class=xl40 x:num>39849.111331</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">47280.696662</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">44993.100738</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">45342.150627</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">45754.917354</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">47777.096873</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">40069.32808</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">39137.78507</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">35351.759522</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">36891.271478</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 colspan="2">&nbsp;&nbsp;&nbsp; Time Deposit</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Nominal<span style='mso-spacerun:yes'> </span></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl45></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Rekening (satuan)</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>230</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>213</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>154</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>214</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>259</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">222</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">228</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">234</td>
+  
+				<td class=xl40 x:num>236</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">242</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">257</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">262</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">259</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">268</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">259</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">256</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">241</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">244</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 style='mso-ignore:colspan'></td>
+  <td>&nbsp;</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Account
+  (number)</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl37></td>
+  <td class=xl37 x:str="Tabungan                 ">Tabungan<span
+  style='mso-spacerun:yes'>                 </span></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Nominal</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>292425.415247</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>320467.248774</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>325902.216613</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>349326.076884</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>384999.677832</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">347489.575537</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">359603.148743</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">351601.324511</td>
+  
+				<td class=xl40 x:num>362501.26441</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">363283.996938</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">368359.620644</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">346946.736186</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">354805.636031</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">363301.48563</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">384999.677832</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">349361.108009</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">330057.90009</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">355171.010961</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 colspan="2">&nbsp;&nbsp;&nbsp; Saving Deposit</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Nominal<span style='mso-spacerun:yes'> </span></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl37></td>
+  <td class=xl45></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Jumlah bilyet (satuan)</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>113217</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>129223</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>144962</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>136801</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>166514</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">157284</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">160426</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">159985</td>
+  
+				<td class=xl40 x:num>160169</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">160667</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">162031</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">162530</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">165798</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">165590</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">166514</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">169092</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">167907</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">169155</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 style='mso-ignore:colspan'></td>
+  <td>&nbsp;</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Bilyet
+  (number)</td>
+  <td></td>
+ </tr>
+
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 align=right style='height:12.75pt' x:num>5</td>
+  <td colspan=3 class=xl37>Kab. Gorontalo Utara                       <span
+  style='mso-spacerun:yes'> </span></td>
+  <td class=xl37 style='mso-ignore:colspan'></td>
+  <td class=xl39>&nbsp;</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>119087.949144</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>142147.216475</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>137443.982206</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>182943.829755</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>126778.457026</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">159706.938524</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">145007.00726</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">148287.234285</td>
+  
+				<td class=xl40 x:num>161136.016619</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">160165.603854</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">174795.961632</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">161417.937131</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">185532.02014</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">162213.239976</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">126778.457026</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">143473.909096</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">148353.447866</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">147941.636733</td>
+  
+  <td class=xl33 align=right x:num>5</td>
+  <td colspan=2 class=xl37>North Gorontalo Municipal</td>
+  <td class=xl42></td>
+  <td class=xl43>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl44 x:str="Giro ">Giro<span style='mso-spacerun:yes'> </span></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Nominal</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>9333.8405</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>16116.103205</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>15718.465707</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>80470.735952</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>23218.687319</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">44457.359449</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">30179.642497</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">32827.681542</td>
+  
+				<td class=xl40 x:num>35816.203291</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">40995.397857</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">36028.108172</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">31590.511451</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">43703.246061</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">41186.489681</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">23218.687319</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">54808.398257</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">59453.068144</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">55282.173933</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 colspan="2">&nbsp;&nbsp;&nbsp; Demand Deposit</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Nominal<span style='mso-spacerun:yes'> </span></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl45></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Rekening (satuan)</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>381</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>511</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>662</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>508</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>421</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">597</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">610</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">828</td>
+  
+				<td class=xl40 x:num>613</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">609</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">596</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">525</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">509</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">497</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">421</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">520</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">530</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">512</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 style='mso-ignore:colspan'></td>
+  <td>&nbsp;</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Account
+  (number)</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl37>Simpanan Berjangka</td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Nominal</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>33461.688278</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>41646.477394</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>24758.087109</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>10635.15288</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>5073.360383</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">27585.9745</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">28157.638271</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">28381.333905</td>
+  
+				<td class=xl40 x:num>28659.461591</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">28525.856336</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">43119.179995</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">42830.004592</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">55663.800777</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">33665.426784</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">5073.360383</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4471.381582</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">9247.022988</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">9372.162077</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 colspan="2">&nbsp;&nbsp;&nbsp; Time Deposit</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Nominal<span style='mso-spacerun:yes'> </span></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl45></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Rekening (satuan)</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>84</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>75</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>102</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>97</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>77</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">106</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">116</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">107</td>
+  
+				<td class=xl40 x:num>108</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">103</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">107</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">101</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">98</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">90</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">77</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">76</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">75</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">77</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 style='mso-ignore:colspan'></td>
+  <td>&nbsp;</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Account
+  (number)</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl37></td>
+  <td class=xl37 x:str="Tabungan                 ">Tabungan<span
+  style='mso-spacerun:yes'>                 </span></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Nominal</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>76292.420366</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>84384.635876</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>96967.42939</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>91837.940923</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>98486.409324</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">87663.604575</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">86669.726492</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">87078.218838</td>
+  
+				<td class=xl40 x:num>96660.351737</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">90644.349661</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">95648.673465</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">86997.421088</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">86164.973302</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">87361.323511</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">98486.409324</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">84194.129257</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">79653.356734</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">83287.300723</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 colspan="2">&nbsp;&nbsp;&nbsp; Saving Deposit</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Nominal<span style='mso-spacerun:yes'> </span></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl37></td>
+  <td class=xl45></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Jumlah bilyet (satuan)</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>36076</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>39538</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>42958</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>41945</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>44369</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">43650</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">44168</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">43933</td>
+  
+				<td class=xl40 x:num>44472</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">44794</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">45514</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">45186</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">45001</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">45035</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">44369</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">44190</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">44745</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">46030</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 style='mso-ignore:colspan'></td>
+  <td>&nbsp;</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Bilyet
+  (number)</td>
+  <td></td>
+ </tr>
+
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 align=right style='height:12.75pt' x:num>6</td>
+  <td colspan=3 class=xl37>Kota Gorontalo                             <span
+  style='mso-spacerun:yes'> </span></td>
+  <td class=xl37 style='mso-ignore:colspan'></td>
+  <td class=xl39>&nbsp;</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>2891535.478323</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>2975971.751815</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>3444987.385505</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>3944260.36788</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>4203148.610744</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">3969620.145328</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4030890.105762</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4103720.19115</td>
+  
+				<td class=xl40 x:num>4181924.232324</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">4144500.919915</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4104047.561714</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4272975.80785</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4226014.134333</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4120110.6941</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4203148.610744</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4145648.172034</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4119792.843695</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4253445.323584</td>
+  
+  <td class=xl33 align=right x:num>6</td>
+  <td colspan=2 class=xl37>Gorontalo City</td>
+  <td class=xl42></td>
+  <td class=xl43>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl44 x:str="Giro ">Giro<span style='mso-spacerun:yes'> </span></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Nominal</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>358971.474497</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>388223.228572</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>611610.170822</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>824178.238503</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>841730.167591</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">881499.981484</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">793331.904868</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">895037.978497</td>
+  
+				<td class=xl40 x:num>940385.86391</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">839422.475895</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">813717.842853</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">966047.028482</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">846918.301877</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">794435.56607</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">841730.167591</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">776081.935545</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">790606.245906</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">835088.638322</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 colspan="2">&nbsp;&nbsp;&nbsp; Demand Deposit</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Nominal<span style='mso-spacerun:yes'> </span></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl45></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Rekening (satuan)</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>3687</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>4440</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>4687</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>4829</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>4738</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">5171</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">5094</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">7608</td>
+  
+				<td class=xl40 x:num>5014</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">5119</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">5090</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">5038</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">5025</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4954</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4738</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4911</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4956</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4941</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 style='mso-ignore:colspan'></td>
+  <td>&nbsp;</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Account
+  (number)</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl37>Simpanan Berjangka</td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Nominal</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>756589.228766</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>765669.539679</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>717189.754761</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>786992.084975</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>854922.90706</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">855685.381796</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">856148.936724</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">864736.804111</td>
+  
+				<td class=xl40 x:num>884597.272468</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">935360.590258</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">948929.781455</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">943382.788796</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">954633.358541</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">969008.401168</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">854922.90706</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">924290.208508</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">908886.05561</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">916176.52011</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 colspan="2">&nbsp;&nbsp;&nbsp; Time Deposit</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Nominal<span style='mso-spacerun:yes'> </span></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl45></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Rekening (satuan)</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>2811</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>2773</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>2724</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>2802</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>2858</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">2784</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">2777</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">2764</td>
+  
+				<td class=xl40 x:num>2789</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">2803</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">2785</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">2790</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">2817</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">2823</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">2858</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">2867</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">2817</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">2879</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 style='mso-ignore:colspan'></td>
+  <td>&nbsp;</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Account
+  (number)</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl37></td>
+  <td class=xl37 x:str="Tabungan                 ">Tabungan<span
+  style='mso-spacerun:yes'>                 </span></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Nominal</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>1775974.77506</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>1822078.983564</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>2116187.459922</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>2333090.044402</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>2506495.536093</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">2232434.782048</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">2381409.26417</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">2343945.408542</td>
+  
+				<td class=xl40 x:num>2356941.095946</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">2369717.853762</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">2341399.937406</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">2363545.990572</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">2424462.473915</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">2356666.726862</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">2506495.536093</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">2445276.027981</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">2420300.542179</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">2502180.165152</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 colspan="2">&nbsp;&nbsp;&nbsp; Saving Deposit</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Nominal<span style='mso-spacerun:yes'> </span></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl37></td>
+  <td class=xl45></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Jumlah bilyet (satuan)</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>457515</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>663981</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>739423</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>522464</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>585197</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">539714</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">547441</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">546145</td>
+  
+				<td class=xl40 x:num>549744</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">553282</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">559157</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">562554</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">574524</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">574208</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">585197</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">590591</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">586344</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">588932</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 style='mso-ignore:colspan'></td>
+  <td>&nbsp;</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Bilyet
+  (number)</td>
+  <td></td>
+ </tr>
+
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 align=right style='height:12.75pt' x:num>7</td>
+  <td colspan=3 class=xl37>Kota / Kabupaten Lainnya<span
+  style='mso-spacerun:yes'> </span></td>
+  <td class=xl37 style='mso-ignore:colspan'></td>
+  <td class=xl39>&nbsp;</td>
+  
+			<td class=xl39 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+			<td class=xl39 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+			<td class=xl39 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+			<td class=xl39 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+			<td class=xl39 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+				<td class=xl40 x:str><p align="right">-</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64"><p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+  <td class=xl33 align=right x:num>7</td>
+  <td colspan=2 class=xl37>Others</td>
+  <td class=xl42></td>
+  <td class=xl43>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl44 x:str="Giro ">Giro<span style='mso-spacerun:yes'> </span></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Nominal</td>
+  
+			<td class=xl39 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+			<td class=xl39 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+			<td class=xl39 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+			<td class=xl39 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+			<td class=xl39 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+				<td class=xl40 x:str><p align="right">-</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64"><p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 colspan="2">&nbsp;&nbsp;&nbsp; Demand Deposit</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Nominal<span style='mso-spacerun:yes'> </span></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl45></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Rekening (satuan)</td>
+  
+			<td class=xl39 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+			<td class=xl39 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+			<td class=xl39 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+			<td class=xl39 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+			<td class=xl39 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+				<td class=xl40 x:str><p align="right">-</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64"><p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 style='mso-ignore:colspan'></td>
+  <td>&nbsp;</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Account
+  (number)</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl37>Simpanan Berjangka</td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Nominal</td>
+  
+			<td class=xl39 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+			<td class=xl39 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+			<td class=xl39 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+			<td class=xl39 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+			<td class=xl39 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+				<td class=xl40 x:str><p align="right">-</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64"><p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 colspan="2">&nbsp;&nbsp;&nbsp; Time Deposit</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Nominal<span style='mso-spacerun:yes'> </span></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl45></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Rekening (satuan)</td>
+  
+			<td class=xl39 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+			<td class=xl39 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+			<td class=xl39 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+			<td class=xl39 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+			<td class=xl39 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+				<td class=xl40 x:str><p align="right">-</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64"><p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 style='mso-ignore:colspan'></td>
+  <td>&nbsp;</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Account
+  (number)</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl37></td>
+  <td class=xl37 x:str="Tabungan                 ">Tabungan<span
+  style='mso-spacerun:yes'>                 </span></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Nominal</td>
+  
+			<td class=xl39 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+			<td class=xl39 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+			<td class=xl39 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+			<td class=xl39 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+			<td class=xl39 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+				<td class=xl40 x:str><p align="right">-</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64"><p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 colspan="2">&nbsp;&nbsp;&nbsp; Saving Deposit</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Nominal<span style='mso-spacerun:yes'> </span></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl37></td>
+  <td class=xl45></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Jumlah bilyet (satuan)</td>
+  
+			<td class=xl39 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+			<td class=xl39 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+			<td class=xl39 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+			<td class=xl39 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+			<td class=xl39 style='border-left:none' x:str>
+			<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+				<td class=xl40 x:str><p align="right">-</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64"><p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+	  			<td class=xl39 x:num style='border-left:none' x:str>
+				<p align="right">-</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 style='mso-ignore:colspan'></td>
+  <td>&nbsp;</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Bilyet
+  (number)</td>
+  <td></td>
+ </tr>
+
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 align=right style='height:12.75pt' x:num>8</td>
+  <td colspan=3 class=xl37>GORONTALO<span
+  style='mso-spacerun:yes'> </span></td>
+  <td class=xl37 style='mso-ignore:colspan'></td>
+  <td class=xl39>&nbsp;</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>4917815.357684</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>5090571.227958</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>6014632.092987</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>6528961.923082</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>6579835.587799</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">6572927.610011</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">6661691.426755</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">6651120.722021</td>
+  
+				<td class=xl40 x:num>6974419.255291</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">6964427.500595</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">6848727.181947</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">6962885.890932</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">6962704.211453</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">6783315.697817</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">6579835.587799</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">6625295.466838</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">6601687.221509</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">6901268.232734</td>
+  
+  <td class=xl33 align=right x:num>8</td>
+  <td class=xl37>GORONTALO</td>
+  <td class=xl37></td>
+  <td class=xl42></td>
+  <td class=xl43>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl44 x:str="Giro ">Giro<span style='mso-spacerun:yes'> </span></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Nominal</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>543206.636145</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>586442.528761</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>1083629.565294</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>1306217.343577</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>1104279.447725</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1351537.409772</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1208363.101523</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1238658.132474</td>
+  
+				<td class=xl40 x:num>1449985.96606</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">1352513.549041</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1250149.791329</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1417865.082545</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1341721.069832</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1247304.26235</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1104279.447725</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1226709.61452</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1264048.995318</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1343258.999931</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td colspan=2 class=xl37>&nbsp;&nbsp;&nbsp; Demand Deposit</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Nominal<span style='mso-spacerun:yes'> </span></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl45></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Rekening (satuan)</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>9582</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>10934</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>11979</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>11860</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>11554</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">12653</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">12560</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">17164</td>
+  
+				<td class=xl40 x:num>12481</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">12659</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">12612</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">12478</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">12488</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">12383</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">11554</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">12369</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">12333</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">12285</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 style='mso-ignore:colspan'></td>
+  <td>&nbsp;</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Account
+  (number)</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl37>Simpanan Berjangka</td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Nominal</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>1056561.130532</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>1092797.203129</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>1007843.641755</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>1041108.101268</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>1117689.765093</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1302536.85996</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1296076.543269</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1313880.960383</td>
+  
+				<td class=xl40 x:num>1368218.447982</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">1447700.649261</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1478806.928257</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1437943.51687</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1455455.017707</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1423635.560585</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1117689.765093</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1254563.979618</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1248011.238767</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1254793.010908</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td colspan=2 class=xl37>&nbsp;&nbsp;&nbsp; Time Deposit</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Nominal<span style='mso-spacerun:yes'> </span></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl45></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Rekening (satuan)</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>4388</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>4416</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>4204</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>4255</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>4294</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4244</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4250</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4245</td>
+  
+				<td class=xl40 x:num>4313</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">4333</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4307</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4296</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4320</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4301</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4294</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4316</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4252</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4342</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 style='mso-ignore:colspan'></td>
+  <td>&nbsp;</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Account
+  (number)</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl37></td>
+  <td class=xl37 x:str="Tabungan                 ">Tabungan<span
+  style='mso-spacerun:yes'>                 </span></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Nominal</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>3318047.591007</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>3411331.496068</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>3923158.885938</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>4181636.478237</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>4357866.374981</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">3918853.340279</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4157251.781963</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4098581.629164</td>
+  
+				<td class=xl40 x:num>4156214.841249</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">4164213.302293</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4119770.462361</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4107077.291517</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4165528.123914</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4112375.874882</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4357866.374981</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4144021.8727</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4089626.987424</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">4303216.221895</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td colspan=2 class=xl37>&nbsp;&nbsp;&nbsp; Saving Deposit</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Nominal<span style='mso-spacerun:yes'> </span></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl33 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl37></td>
+  <td class=xl45></td>
+  <td class=xl45>:</td>
+  <td colspan=2 style='border-right:.5pt solid black'>Jumlah bilyet (satuan)</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>1249657</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>1585610</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>1800720</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>1436752</td>
+  
+			  <td class=xl39 style='border-left:none' x:num>1567015</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1439323</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1473448</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1461273</td>
+  
+				<td class=xl40 x:num>1469002</td>  
+				<td class=xl39 x:num style='border-left:1.0pt solid windowtext' width="64">1477893</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1495771</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1503994</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1549742</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1546666</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1567015</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1596554</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1574660</td>
+  
+				<td class=xl39 x:num style='border-left:none' width="64">1588920</td>
+  
+  <td class=xl33>&nbsp;</td>
+  <td class=xl37 style='mso-ignore:colspan'></td>
+  <td>&nbsp;</td>
+  <td colspan=2 class=xl62 style='border-right:1.0pt solid black'>: Bilyet
+  (number)</td>
+  <td></td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl46 style='height:13.5pt'>&nbsp;</td>
+  <td class=xl48 style="border-right-style: none; border-right-width: medium">&nbsp;</td>
+  <td class=xl48 style="border-left-style: none; border-left-width: medium; border-right-style: none; border-right-width: medium">&nbsp;</td>
+  <td class=xl48 style="border-left-style: none; border-left-width: medium; border-right-style: none; border-right-width: medium">&nbsp;</td>
+  <td class=xl48 style="border-left-style: none; border-left-width: medium; border-right-style: none; border-right-width: medium">&nbsp;</td>
+  <td class=xl48 style="border-left-style: none; border-left-width: medium">&nbsp;</td>
+  <td class=xl48>&nbsp;</td>
+  <td class=xl48>&nbsp;</td>
+  <td class=xl48>&nbsp;</td>
+  <td class=xl48>&nbsp;</td>
+  <td class=xl48>&nbsp;</td>
+  <td class=xl48>&nbsp;</td>
+  <td class=xl48>&nbsp;</td>
+  <td class=xl71 style='border-left:none'>&nbsp;</td>
+  <td class=xl49>&nbsp;</td>
+  <td class=xl48 style='border-left:1.0pt solid black'>&nbsp;</td>
+  <td class=xl50>&nbsp;</td>
+  <td class=xl50>&nbsp;</td>
+  <td class=xl50>&nbsp;</td>
+  <td class=xl50>&nbsp;</td>
+  <td class=xl50>&nbsp;</td>
+  <td class=xl50>&nbsp;</td>
+  <td class=xl50>&nbsp;</td>
+  <td class=xl51>&nbsp;</td>
+  <td class=xl46>&nbsp;</td>
+  <td class=xl47>&nbsp;</td>
+  <td class=xl47>&nbsp;</td>
+  <td class=xl47>&nbsp;</td>
+  <td class=xl52>&nbsp;</td>
+  <td></td>
+ </tr>
+
+   
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td colspan=13><font size=1>1) Sejak Mei 2014 terdapat perubahan cakupan dan klasifikasi data Dana berkaitan dengan implementasi Laporan Bulanan  </td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+  <td colspan=12>
+	<p align="right"><font size=1>1) Since May 2014, data coverage and classification has been enhanced related to the implementation of Islamic Banking Monthly Report (LBUS)  </td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td colspan=13><font size=1>Bank Umum Syariah (LBUS) Laporan Stabilitas Moneter dan Sistem Keuangan (LSMK). Penjelasan lebih lanjut terdapat di Metadata.</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+  <td colspan=12>
+	<p align="right"><font size=1>and Financial System Stability Report (LSMK). For further explanation please refer to Metadata</p></td>
+ </tr>
+  
+  
+
+  
+
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=17 style='width:13pt'></td>
+  <td width=18 style='width:14pt'></td>
+  <td width=130 style='width:98pt'></td>
+  <td width=26 style='width:20pt'></td>
+  <td width=26 style='width:20pt'></td>
+  <td width=114 style='width:86pt'></td>
+  <td width=60 style='width:45pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=20 style='width:15pt'></td>
+  <td width=21 style='width:16pt'></td>
+  <td width=115 style='width:86pt'></td>
+  <td width=18 style='width:14pt'></td>
+  <td width=24 style='width:18pt'></td>
+  <td width=99 style='width:74pt'></td>
+ </tr>
+ <![endif]>
+</table>
+<pre>Keterangan : *)Untuk data sebelum tahun <u>2010</u> tidak termasuk data Kabupaten/Dati II Lainnya.
+Note untuk perhatian KPWDN: untuk kasus penghilangan data kabupaten lainnya terkait penyajian data 
+sebelumnya khususnya th 2007 sd. 2009.
+</pre>
+</body>
+
+</html>
