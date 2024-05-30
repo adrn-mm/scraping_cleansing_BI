@@ -9,12 +9,15 @@ from selenium.webdriver.support.ui import Select, WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from zipfile import ZipFile
 from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.firefox.service import Service
 import time
 
 # Define the 1st driver
+service = Service(executable_path=os.getcwd(),
+                  service_log_path=False)
 options = Options()
 options.add_argument('--headless')
-driver_1 = webdriver.Firefox(options=options)
+driver_1 = webdriver.Firefox(options=options, service=service)
 
 # Define the URL
 url = "https://www.bi.go.id/id/statistik/ekonomi-keuangan/sekda/StatistikRegionalDetail.aspx?idprov=14"

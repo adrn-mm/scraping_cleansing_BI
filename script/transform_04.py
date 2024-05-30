@@ -154,7 +154,7 @@ def flatten_data(data):
     return df_all
 
 def Transform04(file_p, excel_file_p):
-    print(f"Transforming: {file_p}")
+    # print(f"Transforming: {file_p}")
     # Extract years and months
     tables = pd.read_html(file_p)
 
