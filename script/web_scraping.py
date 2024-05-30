@@ -23,7 +23,7 @@ url = "https://www.bi.go.id/id/statistik/ekonomi-keuangan/sekda/StatistikRegiona
 timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 root_folder = f'scraped_data_{timestamp}'
 parent_dir = os.path.dirname(os.getcwd())
-os.makedirs(os.path.join(parent_dir, 'data', 'scraped_data', root_folder), exist_ok=True)
+os.makedirs(os.path.join(parent_dir, 'data', root_folder), exist_ok=True)
 
 # Function to get select element
 def get_select(id):
@@ -89,7 +89,7 @@ print("Downloading files...")
 for links, province_name in zip(all_links, all_province_names):
     # set download dir
     parent_dir = os.path.dirname(os.getcwd())
-    download_dir = os.path.join(parent_dir, 'data',  'scraped_data', root_folder, province_name)
+    download_dir = os.path.join(parent_dir, 'data', root_folder, province_name)
     
     # Create the directory if it doesn't exist
     os.makedirs(download_dir, exist_ok=True)
@@ -129,7 +129,7 @@ end_time = time.time()
 duration = (end_time - start_time)/60
 
 # Count the number of files in the root folder
-folder_path = os.path.join(parent_dir, 'data', 'scraped_data', root_folder)
+folder_path = os.path.join(parent_dir, 'data', root_folder)
 num_folders = len([f for f in os.listdir(folder_path) if os.path.isdir(os.path.join(folder_path, f))])
 
 # Convert the existing timestamp to the desired format
