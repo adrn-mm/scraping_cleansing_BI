@@ -1,1 +1,0 @@
-directory ini untuk script ingest file ke cloudera
