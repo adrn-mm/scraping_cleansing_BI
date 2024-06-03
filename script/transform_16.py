@@ -5,6 +5,11 @@ import re
 from enum import Enum
 import os
 from datetime import datetime
+import warnings
+import itertools
+import threading
+import sys
+import time
 
 # Globals:
 # Propinsi: str
@@ -208,12 +213,34 @@ if __name__ == "__main__":
     dirs = [d for d in os.listdir(scraped_data_dir) if os.path.isdir(os.path.join(scraped_data_dir, d))]
     dirs.sort(key=lambda d: datetime.strptime(re.search(r'\d{4}-\d{2}-\d{2}_\d{2}-\d{2}-\d{2}', d).group(), '%Y-%m-%d_%H-%M-%S'))
     latest_dir = dirs[-1]
+    
     # Get all subdirectories in scraped_data_dir
     province_dirs = [d for d in os.listdir(os.path.join(parent_dir, 'data', latest_dir)) if os.path.isdir(os.path.join(parent_dir, 'data', latest_dir, d))]
+    
+    # Ignore all warnings
+    warnings.filterwarnings("ignore")
+
+    # Function to display a spinner with elapsed time
+    def spinner(msg, stop_event):
+        spinner = itertools.cycle(['-', '/', '|', '\\'])
+        start_time = time.time()
+        while not stop_event.is_set():
+            elapsed_time = time.time() - start_time
+            sys.stdout.write('\r' + msg + ' ' + next(spinner) + f' Elapsed time: {elapsed_time:.2f}s')
+            sys.stdout.flush()
+            time.sleep(0.1)
+        elapsed_time = time.time() - start_time
+        sys.stdout.write('\r' + msg + ' done! ' + f'Total time: {elapsed_time:.2f}s\n')
+    
+    # Start spinner
+    stop_event = threading.Event()
+    spinner_thread = threading.Thread(target=spinner, args=("Please wait, start transforming the 16 files...", stop_event))
+    spinner_thread.start()
+    
     # For each subdirectory, create a corresponding subdirectory in transformed_data_dir
     for province in province_dirs:
-        print(f"Transforming {province}...")
         file_path = os.path.join(parent_dir, 'data', latest_dir, province, "./ii16.xls") 
         excel_file_path = os.path.join(parent_dir, 'data', latest_dir, province, "summary_16.xlsx")
         Transform16(file_path, excel_file_path)
-    print("Transform completed!")
+    stop_event.set()
+    spinner_thread.join()

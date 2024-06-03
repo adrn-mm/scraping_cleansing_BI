@@ -13,10 +13,30 @@ from selenium.webdriver.firefox.service import Service
 import time
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import subprocess
+import warnings
+import itertools
+import threading
+import sys
+
+# Ignore all warnings
+warnings.filterwarnings("ignore")
+
+# Function to display a spinner with elapsed time
+def spinner(msg, stop_event):
+    spinner = itertools.cycle(['-', '/', '|', '\\'])
+    start_time = time.time()
+    while not stop_event.is_set():
+        elapsed_time = time.time() - start_time
+        sys.stdout.write('\r' + msg + ' ' + next(spinner) + f' Elapsed time: {elapsed_time:.2f}s')
+        sys.stdout.flush()
+        time.sleep(0.1)
+    elapsed_time = time.time() - start_time
+    sys.stdout.write('\r' + msg + ' done! ' + f'Total time: {elapsed_time:.2f}s\n')
 
 # Before starting the web scraping, start the Docker Compose services
 subprocess.run(["docker-compose", "up", "-d"], check=True)
-time.sleep(25)
+subprocess.run(["docker-compose", "restart"], check=True)
+time.sleep(10)
 
 # Define the 1st driver
 driver_1 = webdriver.Remote("http://127.0.0.1:4444/wd/hub", DesiredCapabilities.CHROME)
@@ -44,14 +64,13 @@ def get_cell_href(number):
     cell_element = driver_1.find_element(By.XPATH, cell_xpath)
     return cell_element.get_attribute('href')
 
-# Record the start time
-start_time = time.time()
-
 # the 1st driver get the url
+stop_event = threading.Event()
+spinner_thread = threading.Thread(target=spinner, args=("Please wait, start scraping...", stop_event))
+spinner_thread.start()
 driver_1.set_page_load_timeout(50)
 try:
     driver_1.get(url)
-    print("Please wait, start scraping...")
 except TimeoutException:
     driver_1.execute_script("window.stop();")
     print("Timeout when loading the page")
@@ -70,7 +89,6 @@ for i in range(total_options):
     option = select_provinsi.options[i]
     province_name = option.get_attribute("text")
     all_province_names.append(province_name)
-    print(f"Scraping data for province: {province_name}")
     
     # Select the province
     select_provinsi.select_by_value(option.get_attribute('value'))
@@ -85,11 +103,14 @@ for i in range(total_options):
     all_links.append(category_details)
 
 # close the browser 1
+stop_event.set()
+spinner_thread.join()
 driver_1.quit()
-print("Scraping completed!")
 
 # download all links to the root folder
-print("Downloading files...")    
+stop_event = threading.Event()
+spinner_thread = threading.Thread(target=spinner, args=("Please wait, start downloading...", stop_event))
+spinner_thread.start()
 for links, province_name in zip(all_links, all_province_names):
     # set download dir
     parent_dir = os.path.dirname(os.getcwd())
@@ -122,7 +143,6 @@ for links, province_name in zip(all_links, all_province_names):
             options=options)
         driver_2.set_page_load_timeout(10)
         try:
-            print(f"Downloading {province_name} file...")
             driver_2.get(link)
         except TimeoutException:
             driver_2.quit()
@@ -137,25 +157,8 @@ for links, province_name in zip(all_links, all_province_names):
         driver_2.quit()
 
 # download complete
-print("Download completed!")
-
-# Record the end time
-end_time = time.time()
-
-# Calculate the duration
-duration = (end_time - start_time)/60
-
-# Count the number of files in the root folder
-folder_path = os.path.join(parent_dir, 'data', root_folder)
-num_folders = len([f for f in os.listdir(folder_path) if os.path.isdir(os.path.join(folder_path, f))])
-
-# Convert the existing timestamp to the desired format
-timestamp = datetime.strptime(timestamp, '%Y-%m-%d_%H-%M-%S')
-formatted_timestamp = timestamp.strftime('%Y-%m-%d %H:%M:%S')
-
-# Write the log
-with open('log.txt', 'a') as f:
-    f.write(f"Scraping on {formatted_timestamp} with duration {duration} minutes and scraped {num_folders} folders.\n")    
+stop_event.set()
+spinner_thread.join()
     
 # After the web scraping is done, stop the Docker Compose services
 subprocess.run(["docker-compose", "down"], check=True)
