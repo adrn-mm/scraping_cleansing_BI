@@ -14,9 +14,8 @@ import time
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import subprocess
 
-# Before starting the web scraping, restart the Docker container
-container_id = "211aa0b35fcb"
-subprocess.run(["docker", "restart", container_id], check=True)
+# Before starting the web scraping, start the Docker Compose services
+subprocess.run(["docker-compose", "up", "-d"], check=True)
 time.sleep(25)
 
 # Define the 1st driver
@@ -157,3 +156,6 @@ formatted_timestamp = timestamp.strftime('%Y-%m-%d %H:%M:%S')
 # Write the log
 with open('log.txt', 'a') as f:
     f.write(f"Scraping on {formatted_timestamp} with duration {duration} minutes and scraped {num_folders} folders.\n")    
+    
+# After the web scraping is done, stop the Docker Compose services
+subprocess.run(["docker-compose", "down"], check=True)
