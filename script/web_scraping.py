@@ -8,16 +8,19 @@ from datetime import datetime
 from selenium.webdriver.support.ui import Select, WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from zipfile import ZipFile
-from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.chrome.options import Options as chromeOptions
 from selenium.webdriver.firefox.service import Service
 import time
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+import subprocess
+
+# Before starting the web scraping, restart the Docker container
+container_id = "211aa0b35fcb"
+subprocess.run(["docker", "restart", container_id], check=True)
+time.sleep(25)
 
 # Define the 1st driver
-service = Service(executable_path=os.getcwd(),
-                  service_log_path=False)
-options = Options()
-options.add_argument('--headless')
-driver_1 = webdriver.Firefox(options=options, service=service)
+driver_1 = webdriver.Remote("http://127.0.0.1:4444/wd/hub", DesiredCapabilities.CHROME)
 
 # Define the URL
 url = "https://www.bi.go.id/id/statistik/ekonomi-keuangan/sekda/StatistikRegionalDetail.aspx?idprov=14"
@@ -85,42 +88,54 @@ for i in range(total_options):
 # close the browser 1
 driver_1.quit()
 print("Scraping completed!")
-# print(all_links)
 
 # download all links to the root folder
 print("Downloading files...")    
 for links, province_name in zip(all_links, all_province_names):
     # set download dir
     parent_dir = os.path.dirname(os.getcwd())
-    download_dir = os.path.join(parent_dir, 'data', root_folder, province_name)
+    download_dir = os.path.join(parent_dir, 'data')
+    scaraped_data_dir = os.path.join(parent_dir,
+                                'data',
+                                root_folder, province_name)
     
     # Create the directory if it doesn't exist
-    os.makedirs(download_dir, exist_ok=True)
+    os.makedirs(scaraped_data_dir, exist_ok=True)
     
     for link in links:
         # set the path
-        local_filename =  os.path.join(download_dir, link.split('/')[-1])
-    
+        local_filename =  os.path.join(download_dir,
+                                       link.split('/')[-1])
+
         # set the 2nd driver
-        options.set_preference("browser.download.folderList", 2) 
-        options.set_preference("browser.download.dir", download_dir)
-        options.add_argument('--headless')
-        driver_2 = webdriver.Firefox(options=options)
-        
+        options = chromeOptions()
+        prefs = {
+            "download.default_directory": "/Downloads",
+            "download.prompt_for_download": False,
+            "download.directory_upgrade": True,
+            "safebrowsing.enabled": True
+        }
+        options.add_experimental_option("prefs", prefs)
+
+        # Initialize the WebDriver
+        driver_2 = webdriver.Remote(
+            command_executor="http://127.0.0.1:4444/wd/hub",
+            options=options)
         driver_2.set_page_load_timeout(10)
         try:
             print(f"Downloading {province_name} file...")
             driver_2.get(link)
         except TimeoutException:
-            # driver_2.execute_script("window.stop();")
             driver_2.quit()
         
         # Unzip the file
+        time.sleep(10)
         with ZipFile(local_filename, 'r') as zip_ref:
             # Extract the file into the province directory
-            zip_ref.extractall(path=download_dir)
+            zip_ref.extractall(path=scaraped_data_dir)
         # Remove the zip file
         os.remove(local_filename)
+        driver_2.quit()
 
 # download complete
 print("Download completed!")

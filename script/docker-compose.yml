@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  selenium:
+    image: selenium/standalone-chrome
+    ports:
+      - "4444:4444"
+      - "7900:7900"
+    restart: always
+    shm_size: 2g
+    volumes:
+      - "C:/Users/adrian.muhammad/Desktop/testing_cleansing_excel/data:/Downloads"
