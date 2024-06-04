@@ -17,6 +17,7 @@ import warnings
 import itertools
 import threading
 import sys
+import requests
 
 # Ignore all warnings
 warnings.filterwarnings("ignore")
@@ -63,6 +64,19 @@ def get_cell_href(number):
     cell_xpath = f'//*[@id="ctl00_ctl54_g_077c3f62_96a4_43aa_b013_8e274cf2ce9d_ctl00_divIsi"]/table/tbody/tr[{number}]/td[2]/a'
     cell_element = driver_1.find_element(By.XPATH, cell_xpath)
     return cell_element.get_attribute('href')
+
+# function to download file
+def download_file(url, download_dir):
+    local_filename = os.path.join(download_dir, url.split('/')[-1])
+    try:
+        with requests.get(url, stream=True) as response:
+            response.raise_for_status()
+            with open(local_filename, 'wb') as f:
+                for chunk in response.iter_content(chunk_size=8192):
+                    f.write(chunk)
+        return local_filename
+    except Exception as e:
+        return f"Failed to download {url}: {e}"
 
 # the 1st driver get the url
 stop_event = threading.Event()
@@ -124,28 +138,11 @@ for links, province_name in zip(all_links, all_province_names):
     
     for link in links:
         # set the path
-        local_filename =  os.path.join(download_dir,
-                                       link.split('/')[-1])
+        local_filename =  os.path.join(scaraped_data_dir, link.split('/')[-1])
+        zip_filename =  os.path.join(parent_dir, link.split('/')[-1])
 
-        # set the 2nd driver
-        options = chromeOptions()
-        prefs = {
-            "download.default_directory": "/Downloads",
-            "download.prompt_for_download": False,
-            "download.directory_upgrade": True,
-            "safebrowsing.enabled": True
-        }
-        options.add_experimental_option("prefs", prefs)
-
-        # Initialize the WebDriver
-        driver_2 = webdriver.Remote(
-            command_executor="http://127.0.0.1:4444/wd/hub",
-            options=options)
-        driver_2.set_page_load_timeout(10)
-        try:
-            driver_2.get(link)
-        except TimeoutException:
-            driver_2.quit()
+        # Download the file
+        download_file(link, scaraped_data_dir)
         
         # Unzip the file
         time.sleep(10)
@@ -154,7 +151,6 @@ for links, province_name in zip(all_links, all_province_names):
             zip_ref.extractall(path=scaraped_data_dir)
         # Remove the zip file
         os.remove(local_filename)
-        driver_2.quit()
 
 # download complete
 stop_event.set()
