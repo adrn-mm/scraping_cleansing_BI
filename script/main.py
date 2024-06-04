@@ -32,7 +32,7 @@ def main():
 
     # Run web_scraping.py with retry on failure
     while True:
-        if run_script(python_executable, 'web_scraping.py'):
+        if run_script(python_executable, 'web_scraping_test.py'):
             break
         print("Retrying web_scraping.py...")
         time.sleep(5)  # Optional: wait for 5 seconds before retrying
