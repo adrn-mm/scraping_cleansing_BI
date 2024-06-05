@@ -1,4 +1,4 @@
-version: "3.8"
+version: "3.3"
 services:
   selenium:
     image: selenium/standalone-chrome
@@ -7,5 +7,3 @@ services:
       - "7900:7900"
     restart: always
     shm_size: 2g
-    volumes:
-      - "C:/Users/adrian.muhammad/Desktop/testing_cleansing_excel/data:/Downloads"

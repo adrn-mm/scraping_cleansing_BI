@@ -40,6 +40,7 @@ def main():
     # Run the next scripts
     run_script(python_executable, 'transform_04.py')
     run_script(python_executable, 'transform_16.py')
+    run_script(python_executable, 'ingest_hdfs.py')
     
     # Record the end time
     end_time = time.time()

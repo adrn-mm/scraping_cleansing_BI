@@ -51,7 +51,7 @@ def format_data(year: int, month: str, dati_ii: str, details: dict):
         {
             "Tahun": year,
             "Bulan": month if month != year else None,
-            "Dati II": dati_ii,
+            "Dati_II": dati_ii,
             ProductType.Giro.value: [
                 {
                     ProductAttr.Nominal.value: details[ProductType.Giro][ProductAttr.Nominal],
@@ -145,7 +145,7 @@ def get_values(df: pd.DataFrame, ym_list, start_x_index):
 # Function to flatten the JSON structure for multiple years
 def flatten_data(data):
     def get_df(inp, record_path):
-        df_sub = pd.json_normalize(inp, record_path=[record_path], meta=['Tahun', 'Bulan', 'Dati II'])
+        df_sub = pd.json_normalize(inp, record_path=[record_path], meta=['Tahun', 'Bulan', 'Dati_II'])
         df_sub['Tipe'] = record_path
         df_sub['Propinsi'] = globals()["Propinsi"]
         return df_sub
@@ -178,13 +178,13 @@ def Transform04(file_p, excel_file_p):
     df_all = flatten_data(data)
 
     # Reorder columns
-    df_all = df_all[['Propinsi', 'Dati II', 'Tahun', 'Bulan', 'Tipe', 'Nominal', 'Jumlah']]
+    df_all = df_all[['Propinsi', 'Dati_II', 'Tahun', 'Bulan', 'Tipe', 'Nominal', 'Jumlah']]
 
     # Print the DataFrame
     # print(df_all)
 
     # Save to excel
-    df_all.to_excel(excel_file_p, index=False, sheet_name='Summary')
+    df_all.to_csv(excel_file_p, index=False)
     # print(f"Transform Complete. Saved to: {excel_file_p}")
 
 if __name__ == "__main__":
@@ -221,7 +221,7 @@ if __name__ == "__main__":
     # For each subdirectory, create a corresponding subdirectory in transformed_data_dir
     for province in province_dirs:
         file_path = os.path.join(parent_dir, 'data', latest_dir, province, "./ii04.xls") 
-        excel_file_path = os.path.join(parent_dir, 'data', latest_dir, province, "summary_04.xlsx")
+        excel_file_path = os.path.join(parent_dir, 'data', latest_dir, province, "summary_04.csv")
         Transform04(file_path, excel_file_path)
     stop_event.set()
     spinner_thread.join()
