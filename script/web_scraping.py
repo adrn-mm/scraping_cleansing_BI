@@ -1,7 +1,6 @@
 # Import libraries
 from selenium import webdriver 
 from selenium.webdriver.common.by import By
-import os
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from datetime import datetime
@@ -12,12 +11,15 @@ from selenium.webdriver.chrome.options import Options as chromeOptions
 from selenium.webdriver.firefox.service import Service
 import time
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
-import subprocess
 import warnings
 import itertools
 import threading
 import sys
 import requests
+from dotenv import load_dotenv
+import os
+import getpass
+import subprocess
 
 # Ignore all warnings
 warnings.filterwarnings("ignore")
@@ -38,6 +40,15 @@ def spinner(msg, stop_event):
 subprocess.run(["docker-compose", "up", "-d"], check=True)
 subprocess.run(["docker-compose", "restart"], check=True)
 time.sleep(10)
+
+# kinit process
+# Get the password
+password = os.getenv("ADMIN_PASSWORD")
+# If the password is not set in the .env file, ask for it
+if password is None:
+    password = getpass.getpass("Enter the password: ")
+# Run the kinit command
+subprocess.run(["kinit", "admin"], input=password, encoding='utf-8')
 
 # Define the 1st driver
 driver_1 = webdriver.Remote("http://127.0.0.1:4444/wd/hub", DesiredCapabilities.CHROME)
@@ -102,6 +113,7 @@ for i in range(total_options):
     select_provinsi = get_select('DropDownListProvinsiSekda')
     option = select_provinsi.options[i]
     province_name = option.get_attribute("text")
+    province_name = province_name.lower().replace(' ', '_')
     all_province_names.append(province_name)
     
     # Select the province
@@ -129,26 +141,30 @@ for links, province_name in zip(all_links, all_province_names):
     # set download dir
     parent_dir = os.path.dirname(os.getcwd())
     download_dir = os.path.join(parent_dir, 'data')
-    scaraped_data_dir = os.path.join(parent_dir,
+    scraped_data_dir = os.path.join(parent_dir,
                                 'data',
                                 root_folder, province_name)
     
     # Create the directory if it doesn't exist
-    os.makedirs(scaraped_data_dir, exist_ok=True)
+    os.makedirs(scraped_data_dir, exist_ok=True)
     
     for link in links:
         # set the path
-        local_filename =  os.path.join(scaraped_data_dir, link.split('/')[-1])
+        file_name_without_extension = os.path.splitext(link.split('/')[-1])[0]
+        file_name_without_extension = file_name_without_extension.split('-')[-1]
+        local_filename =  os.path.join(scraped_data_dir, link.split('/')[-1])
         zip_filename =  os.path.join(parent_dir, link.split('/')[-1])
+        new_scraped_data_dir = os.path.join(scraped_data_dir, file_name_without_extension)
 
         # Download the file
-        download_file(link, scaraped_data_dir)
+        os.makedirs(new_scraped_data_dir, exist_ok=True)
+        download_file(link, scraped_data_dir)
         
         # Unzip the file
         time.sleep(10)
         with ZipFile(local_filename, 'r') as zip_ref:
             # Extract the file into the province directory
-            zip_ref.extractall(path=scaraped_data_dir)
+            zip_ref.extractall(path=new_scraped_data_dir)
         # Remove the zip file
         os.remove(local_filename)
 

@@ -239,8 +239,9 @@ if __name__ == "__main__":
     
     # For each subdirectory, create a corresponding subdirectory in transformed_data_dir
     for province in province_dirs:
-        file_path = os.path.join(parent_dir, 'data', latest_dir, province, "./ii16.xls") 
-        excel_file_path = os.path.join(parent_dir, 'data', latest_dir, province, "summary_16.csv")
+        file_path = os.path.join(parent_dir, 'data', latest_dir, province, "ii16", "./ii16.xls") 
+        excel_file_path = os.path.join(parent_dir, 'data', latest_dir, province, "ii16", "summary_16.csv")
         Transform16(file_path, excel_file_path)
+        os.remove(file_path)
     stop_event.set()
     spinner_thread.join()

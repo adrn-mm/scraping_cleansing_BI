@@ -45,9 +45,11 @@ warnings.filterwarnings("ignore")
 
 # Lokasi target di HDFS (pastikan ini adalah direktori, bukan file)
 hdfs_directory_path = '/user/admin/csv/'
-
 subprocess.call(['hadoop', 'fs', '-mkdir', '-p', hdfs_directory_path])
 subprocess.call(['hadoop', 'fs', '-put', '-f', os.path.join(parent_dir, 'data', latest_dir), hdfs_directory_path])
+
+# Change the permission of the directory
+subprocess.run(['hadoop', 'fs', '-chmod', '-R', '755', hdfs_directory_path])
 
 stop_event.set()
 spinner_thread.join()
