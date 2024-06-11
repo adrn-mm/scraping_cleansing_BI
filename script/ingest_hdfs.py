@@ -10,6 +10,8 @@ import sys
 import time
 import warnings
 import itertools
+import getpass
+import subprocess
 
 # Ignore all warnings
 warnings.filterwarnings("ignore")

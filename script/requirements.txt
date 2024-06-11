@@ -4,3 +4,4 @@ pandas
 lxml
 openpyxl
 requests
+python-dotenv

@@ -42,13 +42,10 @@ subprocess.run(["docker-compose", "restart"], check=True)
 time.sleep(10)
 
 # kinit process
-# Get the password
 password = os.getenv("ADMIN_PASSWORD")
-# If the password is not set in the .env file, ask for it
-if password is None:
-    password = getpass.getpass("Enter the password: ")
 # Run the kinit command
 subprocess.run(["kinit", "admin"], input=password, encoding='utf-8')
+print("Running kinit...")
 
 # Define the 1st driver
 driver_1 = webdriver.Remote("http://127.0.0.1:4444/wd/hub", DesiredCapabilities.CHROME)
@@ -64,7 +61,7 @@ os.makedirs(os.path.join(parent_dir, 'data', root_folder), exist_ok=True)
 
 # Function to get select element
 def get_select(id):
-    dropdown = WebDriverWait(driver_1, 10).until(
+    dropdown = WebDriverWait(driver_1, 20).until(
         EC.element_to_be_clickable((By.ID, id))
     )
     select = Select(dropdown)
@@ -96,6 +93,7 @@ spinner_thread.start()
 driver_1.set_page_load_timeout(50)
 try:
     driver_1.get(url)
+    driver_1.implicitly_wait(10)
 except TimeoutException:
     driver_1.execute_script("window.stop();")
     print("Timeout when loading the page")

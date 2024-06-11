@@ -41,6 +41,7 @@ def main():
     run_script(python_executable, 'transform_04.py')
     run_script(python_executable, 'transform_16.py')
     run_script(python_executable, 'ingest_hdfs.py')
+    run_script(python_executable, 'ingest_hive.py')
     
     # Record the end time
     end_time = time.time()
